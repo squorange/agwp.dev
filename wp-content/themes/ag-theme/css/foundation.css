@@ -7724,7 +7724,8 @@ footer a:hover {
 /***** TILES *****/
 .l-tiles {
   max-width: 2500px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background: #555555; }
 
 .tile-single {
   float: left;
@@ -7782,6 +7783,20 @@ footer a:hover {
   display: table-cell !important; }
 .tile-single a:hover .tile__label-title {
   display: none; }
+
+.l-filters {
+  background: #555555;
+  text-align: center; }
+
+button.filter {
+  color: #FFFFFF;
+  background: #555555; }
+
+button.filter:hover {
+  background: #333333; }
+
+.l-filters button.active {
+  color: #FDDB45; }
 
 #Container .mix {
   display: none; }

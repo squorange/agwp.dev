@@ -165,6 +165,7 @@ footer {
 .l-tiles {
 	max-width: 2500px;
 	margin: 0 auto;
+	background: $charcoal;
 }
 
 .tile-single {
@@ -237,6 +238,24 @@ footer {
 	.tile__label-title {
 		display: none;
 	}
+}
+
+.l-filters {
+	background: $charcoal;
+	text-align: center;
+}
+	
+button.filter {
+	color: $white;
+	background: $charcoal;
+}	
+
+button.filter:hover {
+	background: $oil;
+}
+
+.l-filters button.active {
+	color: $ag-yellow;
 }
 
 #Container .mix{

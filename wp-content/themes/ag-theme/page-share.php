@@ -7,9 +7,9 @@ Template Name: Share
 
 	<?php do_action('foundationPress_before_content'); ?>
 
+<!--
 <form class="controls" id="Filters">
-  <!-- We can add an unlimited number of "filter groups" using the following format: -->
-  
+ 
   <fieldset>
     <h4>Topics</h4>
     <select>
@@ -20,23 +20,29 @@ Template Name: Share
       <option value=".share__innovation-trends">Innovation &amp; Trends</option>
     </select>
   </fieldset>
-  
-	
-	<div class="filter" data-filter="all">Show All</div>
-	<div class="filter" data-filter=".share__leadership-strategy">Leadership &amp; Strategy</div>
-	<div class="filter" data-filter=".share__culture-values">Culture &amp; Values</div>
-	<div class="filter" data-filter=".share__design-brand">Design &amp; Brand</div>
-	<div class="filter" data-filter=".share__innovation-trends">Innovation &amp; Trends</div>	
-	<br />
-	<div class="sort" data-sort="default">Default</div>
-	<div class="sort" data-sort="myorder:asc">Ascending</div>
-	<div class="sort" data-sort="myorder:desc">Descending</div>
-	
-  <button id="Reset">Clear Filters</button>
 </form>
+	
+-->
+
+<div class="l-filters">	
+	
+	<button class="filter" data-filter="all">All Transformation Design</button>
+	<button class="filter" data-filter=".share__leadership-strategy">Leadership &amp; Strategy</button>
+	<button class="filter" data-filter=".share__culture-values">Culture &amp; Values</button>
+	<button class="filter" data-filter=".share__design-brand">Design &amp; Brand</button>
+	<button class="filter" data-filter=".share__innovation-trends">Innovation &amp; Trends</button>	
+
+<!--
+	<button class="sort" data-sort="default">Default</button>
+	<button class="sort" data-sort="myorder:asc">Ascending</button>
+	<button class="sort" data-sort="myorder:desc">Descending</button>
+-->
+		
+</div>
+
 
   <section class="clearfix"> <!-- BEGIN TILES -->
-		<div id="Container" class="l-tiles container">
+		<div id="Container" class="l-tiles container clearfix">
 
 				<?php
 				$args = array(
