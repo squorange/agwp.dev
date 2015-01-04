@@ -1,0 +1,244 @@
+
+@mixin text-base-caps {
+	font-size: $text-base;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+@mixin text-large-lower {
+	font-size: $text-large;
+	text-transform: lowercase;
+}
+
+@mixin text-small-caps {
+	font-size: $text-small;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+.text--bold {
+	font-family: $font-bold;	
+	font-weight: bold;
+}
+
+.button {
+	@include text-base-caps;
+}
+.button:hover {
+	color: $oil;
+}
+
+.row--header {
+	margin-top: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.row--header + div {
+	margin-bottom: 3em;
+}
+
+.form__input {
+	@include text-base-caps;
+}
+
+// A fix for pre and postfix radius not working in Foundation. 
+.prePostfix-radius--fix-left {
+  border-radius: 3px 0 0 3px !important;
+}
+.prePostfix-radius--fix-right {
+  border-radius: 0 3px 3px 0 !important;  
+}
+
+
+/***** NAVIGATION MENU *****/
+
+.l-nav .name a.nav__logo {
+	display: block;
+	width: 155px;
+	height: $topbar-height;
+	margin-left: 15px;
+	margin-right: 10px;
+	background: url(images/logo-ag.png) center center no-repeat;
+	background-size: 155px $topbar-height;
+}
+
+.top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li a {
+	color: $text-color;
+}
+
+.top-bar-section ul li {
+	background: none;
+}
+
+.top-bar-section .nav__left li>a {
+	@include text-base-caps;
+	font-family: $font-bold;
+}
+
+.top-bar-section .nav__right li>a {
+	@include text-small-caps;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+	font-family: $font-bold;	
+}
+
+//	.top-bar .toggle-topbar.menu-icon a span::after {
+// 		margin-top: -10px;
+//	}
+
+
+
+
+
+/***** FOOTER *****/
+
+footer {
+	width: 100%;
+	background: $oil;
+	padding: 4em 0;
+	@include text-small-caps;
+	color: $base;
+}
+
+footer {
+	a, a:hover {
+		color: $white;		
+	}
+	a:hover {
+		text-decoration: underline;
+	};
+}
+
+.footer__contact-wrap {
+	display: table;
+	width: 100%;
+}
+
+.footer__contact {
+	display: table-cell;
+	vertical-align: middle;
+	height: 150px;
+}
+
+.link--contact {
+	@include text-large-lower;
+}
+
+@media #{$small-up} { 
+	footer, .footer__contact {
+		text-align: left;
+		line-height: 1.2rem;
+	}
+	footer div.columns {
+		margin-top: 1em;
+	}
+}
+
+@media #{$large-up} { 
+	footer {
+		text-align: left;
+		line-height: 1rem;
+	}
+	.footer__contact {
+		text-align: center;
+	}
+	.footer__locations {
+		background: url(images/logo-ag-white.png) left top no-repeat;
+		background-size: 140px auto;
+		padding-top: 40px;
+	}
+	.footer__links { 
+		padding-top: 40px;	
+	}	
+	footer div.columns {
+		margin-top: 3em;
+	}
+}
+
+
+
+
+
+/***** TILES *****/
+
+.l-tiles {
+	max-width: 2500px;
+	margin: 0 auto;
+}
+
+.tile-single {
+	float: left;
+	background: $ag-yellow;	
+	position:relative;
+}
+
+	@media #{$small-up} { 
+		.tile-single {
+			width: 50%;
+		}
+	}
+
+	@media #{$medium-up} { 
+		.tile-single {
+			width: 25%;
+		}
+	}
+
+.tile-single a:hover .attachment--tile {
+  opacity: 0.1;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+
+.tile__image-wrap {
+	width:100%;
+	height:auto;
+}
+
+.tile__label-wrap {
+	position:absolute;
+		top:5px;
+		left:0;
+		right:0;
+		bottom:10px;
+		overflow:auto;
+}
+
+.tile__label-inner {
+	display:table;
+		width:100%;
+		height:100%;
+}
+
+@mixin tile__label {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;	
+	padding: 0 20px;	
+}
+
+.tile__label-title {
+	@include tile__label;	
+	color: $ag-yellow;
+	font-size: $text-large;	
+}
+
+.tile__label-caption {
+	@include tile__label;
+	@include text-base-caps;
+	color: $oil;
+	display: none;
+}
+
+.tile-single a:hover {
+	.tile__label-caption {
+		display: table-cell !important;
+	}
+	.tile__label-title {
+		display: none;
+	}
+}
+
+#Container .mix{
+	display: none;
+}
