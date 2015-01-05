@@ -7645,7 +7645,7 @@ th.hide-for-touch {
   height: 4.375rem;
   margin-left: 15px;
   margin-right: 10px;
-  background: url(images/logo-ag.png) center center no-repeat;
+  background: url(../assets/img/images/logo-ag.png) center center no-repeat;
   background-size: 155px 4.375rem; }
 
 .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section ul li a {
@@ -7712,7 +7712,7 @@ footer a:hover {
     text-align: center; }
 
   .footer__locations {
-    background: url(images/logo-ag-white.png) left top no-repeat;
+    background: url(../assets/img/images/logo-ag-white.png) left top no-repeat;
     background-size: 140px auto;
     padding-top: 40px; }
 
