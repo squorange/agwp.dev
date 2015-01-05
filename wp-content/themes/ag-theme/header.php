@@ -34,11 +34,8 @@
 	<body <?php body_class(); ?>>
 	<?php do_action('foundationPress_after_body'); ?>
 	
-	
 	<?php do_action('foundationPress_layout_start'); ?>
 	
-
 	<?php get_template_part('parts/top-bar'); ?>
 
-<section class="container" role="document">
 	<?php do_action('foundationPress_after_header'); ?>
