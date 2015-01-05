@@ -7721,6 +7721,19 @@ footer a:hover {
 
   footer div.columns {
     margin-top: 3em; } }
+/***** SINGLE POSTS *****/
+.l-header-single-post {
+  margin: 0 auto 1em auto;
+  max-width: 2500px; }
+
+article.ag_share {
+  margin-bottom: 2em; }
+
+/***** SINGLE POSTS *****/
+.l-header-featured {
+  margin: 0 auto;
+  max-width: 2500px; }
+
 /***** TILES *****/
 .l-tiles {
   max-width: 2500px;
@@ -7790,10 +7803,17 @@ footer a:hover {
 
 button.filter {
   color: #FFFFFF;
-  background: #555555; }
+  background: #555555;
+  margin: 0;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem; }
+
+button.filter:focus {
+  outline: none; }
 
 button.filter:hover {
-  background: #333333; }
+  background: #444444; }
 
 .l-filters button.active {
   color: #FDDB45; }

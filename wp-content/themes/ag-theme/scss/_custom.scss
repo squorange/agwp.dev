@@ -160,6 +160,31 @@ footer {
 
 
 
+/***** SINGLE POSTS *****/
+
+.l-header-single-post {
+	margin: 0 auto 1em auto;
+	max-width: 2500px;
+}
+
+article.ag_share {
+	margin-bottom: 2em;
+}
+
+
+
+
+/***** SINGLE POSTS *****/
+
+.l-header-featured {
+	margin: 0 auto;
+	max-width: 2500px;
+}
+
+
+
+
+
 /***** TILES *****/
 
 .l-tiles {
@@ -244,19 +269,21 @@ footer {
 	background: $charcoal;
 	text-align: center;
 }
-	
-button.filter {
-	color: $white;
-	background: $charcoal;
-}	
-
-button.filter:hover {
-	background: $oil;
-}
-
-.l-filters button.active {
-	color: $ag-yellow;
-}
+	button.filter {
+		color: $white;
+		background: $charcoal;
+		margin: 0;
+		@include text-small-caps;
+	}	
+	button.filter:focus {
+		outline: none;
+	}
+	button.filter:hover {
+		background: $tuatara;
+	}
+	.l-filters button.active {
+		color: $ag-yellow;
+	}
 
 #Container .mix{
 	display: none;

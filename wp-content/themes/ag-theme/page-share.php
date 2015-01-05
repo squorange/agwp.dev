@@ -8,20 +8,7 @@ Template Name: Share
 	<?php do_action('foundationPress_before_content'); ?>
 
 <!--
-<form class="controls" id="Filters">
- 
-  <fieldset>
-    <h4>Topics</h4>
-    <select>
-      <option value="">All Transformation Design</option>
-      <option value=".share__leadership-strategy">Leadership &amp; Strategy</option>
-      <option value=".share__culture-values">Culture &amp; Values</option>
-      <option value=".share__design-brand">Design &amp; Brand</option>
-      <option value=".share__innovation-trends">Innovation &amp; Trends</option>
-    </select>
-  </fieldset>
-</form>
-	
+	<?php if(function_exists('iinclude_page')) iinclude_page(share_featured); ?>			
 -->
 
 <div class="l-filters">	
@@ -39,7 +26,6 @@ Template Name: Share
 -->
 		
 </div>
-
 
   <section class="clearfix"> <!-- BEGIN TILES -->
 		<div id="Container" class="l-tiles container clearfix">
@@ -83,8 +69,8 @@ Template Name: Share
 		</div>
 	</section> <!-- END TILES -->
 	
+	<?php get_template_part('parts/newsletter-signup'); ?>
 
 	<?php do_action('foundationPress_after_content'); ?>
-
 
 <?php get_footer(); ?>

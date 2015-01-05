@@ -20,7 +20,7 @@ get_header(); ?>
 	<div id="Container" class="l-tiles container clearfix">
 	
 <?php
-$queryObject = new WP_Query( 'post_type=ag_share&posts_per_page=8' );
+$queryObject = new WP_Query( 'post_type=ag_share&posts_per_page=7' );
 // The Loop!
 if ($queryObject->have_posts()) {
     ?>
@@ -49,9 +49,27 @@ if ($queryObject->have_posts()) {
 
     <?php }} ?>
 		
+		<div class="tile-single">
+			<a href="#">
+				<div class="tile__image-wrap">
+					<img class="tile__image attachment--tile" src="resources/tile-blank.png" />
+					<div class="tile__label-wrap">
+						<div class="tile__label-inner">
+							<div class="tile__label-title">
+								Read More
+							</div>
+							<div class="tile__label-caption">
+								Explore more Transformation Design articles
+							</div>							
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+		
 	</div>
 </section> <!-- END TILES -->
 
-	<?php get_template_part('parts/newsletter-signup'); ?>
+<?php get_template_part('parts/newsletter-signup'); ?>
 
 <?php get_footer(); ?>
