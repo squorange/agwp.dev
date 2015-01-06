@@ -7729,38 +7729,59 @@ footer a:hover {
 article.ag_share {
   margin-bottom: 2em; }
 
-/***** SINGLE POSTS *****/
-.l-header-featured {
-  margin: 0 auto;
-  max-width: 2500px; }
-
 /***** TILES *****/
+.l-header-featured {
+  max-width: 2500px;
+  margin: 0 auto; }
+
 .l-tiles {
   max-width: 2500px;
   margin: 0 auto;
   background: #555555; }
 
-.tile-single {
+.tile-single,
+.header-featured {
   float: left;
   background: #FDDB45;
   position: relative; }
 
-@media only screen {
+.header-featured {
+  float: left;
+  background: #333333;
+  position: relative; }
+
+@media only screen and (max-width: 40em) {
   .tile-single {
-    width: 50%; } }
+    width: 50%; }
+
+  .header__label-caption {
+    display: none; }
+
+  .header__label h1 {
+    font-size: 1.4rem; } }
 @media only screen and (min-width: 40.063em) {
   .tile-single {
-    width: 25%; } }
+    width: 25%; }
+
+  .header__label-caption {
+    display: block; } }
 .tile-single a:hover .attachment--tile {
   opacity: 0.1;
   filter: alpha(opacity=10);
   /* For IE8 and earlier */ }
 
-.tile__image-wrap {
+.tile__image-wrap,
+.header__image-wrap {
   width: 100%;
   height: auto; }
 
-.tile__label-wrap {
+.header__image-wrap:hover img {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* For IE8 and earlier */ }
+
+.tile__label-wrap,
+.header__label-wrap {
   position: absolute;
   top: 5px;
   left: 0;
@@ -7768,10 +7789,24 @@ article.ag_share {
   bottom: 10px;
   overflow: auto; }
 
-.tile__label-inner {
+.tile__label-inner,
+.header__label-inner {
   display: table;
   width: 100%;
   height: 100%; }
+
+.header__label {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0 20px;
+  color: #FFFFFF; }
+  .header__label h1 {
+    color: #FFFFFF; }
+  .header__label .header__label-caption {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem; }
 
 .tile__label-title {
   display: table-cell;

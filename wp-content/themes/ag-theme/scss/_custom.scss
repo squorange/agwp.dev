@@ -174,18 +174,13 @@ article.ag_share {
 
 
 
-/***** SINGLE POSTS *****/
-
-.l-header-featured {
-	margin: 0 auto;
-	max-width: 2500px;
-}
-
-
-
-
 
 /***** TILES *****/
+
+.l-header-featured {
+	max-width: 2500px;
+	margin: 0 auto;
+}
 
 .l-tiles {
 	max-width: 2500px;
@@ -193,21 +188,37 @@ article.ag_share {
 	background: $charcoal;
 }
 
-.tile-single {
+.tile-single, 
+.header-featured {
 	float: left;
 	background: $ag-yellow;	
 	position:relative;
 }
 
-	@media #{$small-up} { 
+.header-featured {
+	float: left;
+	background: $oil;
+	position:relative;
+}
+
+	@media #{$small-only} { 
 		.tile-single {
 			width: 50%;
+		}
+		.header__label-caption {
+			display: none;
+		}
+		.header__label h1 {
+			font-size: 1.4rem;
 		}
 	}
 
 	@media #{$medium-up} { 
 		.tile-single {
 			width: 25%;
+		}
+		.header__label-caption {
+			display: block;
 		}
 	}
 
@@ -216,24 +227,31 @@ article.ag_share {
   filter: alpha(opacity=10); /* For IE8 and earlier */
 }
 
-.tile__image-wrap {
+.tile__image-wrap,
+.header__image-wrap {
 	width:100%;
 	height:auto;
 }
+.header__image-wrap:hover img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+};
 
-.tile__label-wrap {
+.tile__label-wrap,
+.header__label-wrap {
 	position:absolute;
-		top:5px;
-		left:0;
-		right:0;
-		bottom:10px;
-		overflow:auto;
+	top:5px;
+	left:0;
+	right:0;
+	bottom:10px;
+	overflow:auto;
 }
 
-.tile__label-inner {
+.tile__label-inner,
+.header__label-inner {
 	display:table;
-		width:100%;
-		height:100%;
+	width:100%;
+	height:100%;
 }
 
 @mixin tile__label {
@@ -241,6 +259,17 @@ article.ag_share {
 	text-align: center;
 	vertical-align: middle;	
 	padding: 0 20px;	
+}
+
+.header__label {
+	@include tile__label;	
+	color: $white;
+	h1 {
+		color: $white;
+	}
+	.header__label-caption {
+		@include text-base-caps;
+	}
 }
 
 .tile__label-title {

@@ -7,24 +7,39 @@ Template Name: Share
 
 	<?php do_action('foundationPress_before_content'); ?>
 
-<!--
-	<?php if(function_exists('iinclude_page')) iinclude_page(share_featured); ?>			
--->
+<section class="l-header-featured clearfix"> <!-- FEATURED POST -->
+	<div class="header-featured">	
+		<?php while ( have_posts() ) : the_post(); ?>
+			<a href="<?php the_field('featured_post_url'); ?>">
+				<div class="header__image-wrap">
+					<img src="<?php the_field('featured_banner_image'); ?>" />
+					<div class="header__label-wrap">
+						<div class="header__label-inner">
+								<div class="header__label">
+									<h1><?php the_field('featured_title'); ?></h1>
+									<div class="header__label-caption">
+									<?php the_field('featured_blurb'); ?>
+									</div>
+								</div>
+						</div>				
+					</div>
+				</div>
+			</a>		
+		<?php endwhile; // end of the loop. ?>	
+	</div>	
+</section>
 
 <div class="l-filters">	
-	
 	<button class="filter" data-filter="all">All Transformation Design</button>
 	<button class="filter" data-filter=".share__leadership-strategy">Leadership &amp; Strategy</button>
 	<button class="filter" data-filter=".share__culture-values">Culture &amp; Values</button>
 	<button class="filter" data-filter=".share__design-brand">Design &amp; Brand</button>
 	<button class="filter" data-filter=".share__innovation-trends">Innovation &amp; Trends</button>	
-
 <!--
 	<button class="sort" data-sort="default">Default</button>
 	<button class="sort" data-sort="myorder:asc">Ascending</button>
 	<button class="sort" data-sort="myorder:desc">Descending</button>
 -->
-		
 </div>
 
   <section class="clearfix"> <!-- BEGIN TILES -->
