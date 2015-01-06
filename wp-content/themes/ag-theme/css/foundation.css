@@ -7726,7 +7726,10 @@ footer a:hover {
   margin: 0 auto 1em auto;
   max-width: 2500px; }
 
-article.ag_share {
+article.ag_share,
+article.ag_give,
+article.ag_advise,
+article.ag_team {
   margin-bottom: 2em; }
 
 /***** TILES *****/
