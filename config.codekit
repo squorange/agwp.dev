@@ -20,17 +20,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/resources\/tile-blank.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2936,
-		"inputAbbreviatedPath": "\/resources\/tile-blank.png",
-		"outputAbbreviatedPath": "\/resources\/tile-blank.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/wp-activate.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7746,6 +7735,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/plugins\/wp-migrate-db\/wp-migrate-db.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/plugins\/wpautop-control\/wpautop-control.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/plugins\/wpautop-control\/wpautop-control.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -16406,6 +16404,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/ag-theme\/page-build.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/page-build.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/ag-theme\/page-front.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -16447,6 +16454,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/page-sidebar-left.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ag-theme\/page-team.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/page-team.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -23569,6 +23585,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/uploads\/2015\/01\/header-team-skang-1024x341.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47147,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/header-team-skang-1024x341.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/header-team-skang-1024x341.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/header-team-skang-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8890,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/header-team-skang-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/header-team-skang-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/header-team-skang-300x100.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7341,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/header-team-skang-300x100.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/header-team-skang-300x100.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/header-team-skang.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96784,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/header-team-skang.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/header-team-skang.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/uploads\/2015\/01\/share-header-test-1024x341.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -23675,6 +23735,39 @@
 		"initialSize": 68317,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/share-tile02.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/share-tile02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-skang-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6017,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-skang-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-skang-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-skang-300x300.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16176,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-skang-300x300.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-skang-300x300.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-skang.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22270,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-skang.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-skang.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

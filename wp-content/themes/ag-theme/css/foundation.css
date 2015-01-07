@@ -7619,6 +7619,13 @@ th.hide-for-touch {
 .button:hover {
   color: #333333; }
 
+/***** PAGES *****/
+.header__blurb {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  text-align: center; }
+
 .row--header {
   margin-top: 3em;
   margin-bottom: 1em;
@@ -7732,6 +7739,18 @@ article.ag_advise,
 article.ag_team {
   margin-bottom: 2em; }
 
+.post__meta {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin-bottom: 3em; }
+
+.post__meta-team {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin-bottom: 2em; }
+
 /***** TILES *****/
 .l-header-featured {
   max-width: 2500px;
@@ -7811,13 +7830,17 @@ article.ag_team {
     text-transform: uppercase;
     letter-spacing: 0.05rem; }
 
-.tile__label-title {
+.tile__label-title, .tile__label-name {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   padding: 0 20px;
   color: #FDDB45;
   font-size: 1.4rem; }
+
+.tile__label-name {
+  vertical-align: bottom;
+  padding-bottom: 20px; }
 
 .tile__label-caption {
   display: table-cell;
@@ -7832,7 +7855,7 @@ article.ag_team {
 
 .tile-single a:hover .tile__label-caption {
   display: table-cell !important; }
-.tile-single a:hover .tile__label-title {
+.tile-single a:hover .tile__label-title, .tile-single a:hover .tile__label-name {
   display: none; }
 
 .l-filters {

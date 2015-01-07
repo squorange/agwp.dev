@@ -85,7 +85,7 @@ Template Name: Advise
 		</div>
 	</section> <!-- END TILES -->
 	
-	<?php get_template_part('parts/newsletter-signup'); ?>
+	<?php get_template_part('parts/cocreate'); ?>
 
 	<?php do_action('foundationPress_after_content'); ?>
 

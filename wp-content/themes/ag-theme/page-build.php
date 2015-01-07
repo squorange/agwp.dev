@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Give
+Template Name: Build
 */
 ?>
 <?php get_header(); ?>
@@ -27,7 +27,7 @@ Template Name: Give
 
 				<?php
 				$args = array(
-					'post_type' => 'ag_give',
+					'post_type' => 'ag_build',
 					'nopaging' => true
 				);
 		

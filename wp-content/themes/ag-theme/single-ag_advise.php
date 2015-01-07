@@ -13,7 +13,6 @@
 			<div class="row">
 				<div class="small-12 medium-8 medium-offset-2 columns" role="main">
 					<h1 class="entry-title"><?php the_title(); ?></h1>					
-					<?php FoundationPress_entry_meta(); ?>					
 					<?php the_content(); ?>
 				</div>
 			</div>

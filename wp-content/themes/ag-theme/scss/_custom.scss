@@ -28,6 +28,16 @@
 	color: $oil;
 }
 
+
+
+
+/***** PAGES *****/
+
+.header__blurb {
+	@include text-base-caps;
+	text-align: center;
+}
+
 .row--header {
 	margin-top: 3em;
 	margin-bottom: 1em;
@@ -48,6 +58,8 @@
 .prePostfix-radius--fix-right {
   border-radius: 0 3px 3px 0 !important;  
 }
+
+
 
 
 /***** NAVIGATION MENU *****/
@@ -86,7 +98,6 @@
 //	.top-bar .toggle-topbar.menu-icon a span::after {
 // 		margin-top: -10px;
 //	}
-
 
 
 
@@ -159,7 +170,6 @@ footer {
 
 
 
-
 /***** SINGLE POSTS *****/
 
 .l-header-single-post {
@@ -174,6 +184,15 @@ article.ag_team {
 	margin-bottom: 2em;
 }
 
+.post__meta {
+	@include text-small-caps;
+	margin-bottom: 3em;
+}
+
+.post__meta-team {
+	@include text-base-caps;
+	margin-bottom: 2em;
+}
 
 
 
@@ -279,6 +298,12 @@ article.ag_team {
 	@include tile__label;	
 	color: $ag-yellow;
 	font-size: $text-large;	
+}
+
+.tile__label-name {
+	@extend .tile__label-title;
+	vertical-align: bottom;
+	padding-bottom: 20px;
 }
 
 .tile__label-caption {

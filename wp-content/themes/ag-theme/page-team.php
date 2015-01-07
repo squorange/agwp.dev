@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Give
+Template Name: Team
 */
 ?>
 <?php get_header(); ?>
@@ -20,14 +20,14 @@ Template Name: Give
 		</div>
 	</div>
 
-	<?php endwhile; // end of the loop. ?>	
+	<?php endwhile; // end of the loop. ?>		
 
   <section class="clearfix"> <!-- BEGIN TILES -->
 		<div id="Container" class="l-tiles container clearfix">
 
 				<?php
 				$args = array(
-					'post_type' => 'ag_give',
+					'post_type' => 'ag_team',
 					'nopaging' => true
 				);
 		
@@ -42,11 +42,12 @@ Template Name: Give
 							<?php the_post_thumbnail('-tile'); ?>
 							<div class="tile__label-wrap">
 								<div class="tile__label-inner">
-									<div class="tile__label-title">
-										<?php the_title(); ?>
+									<div class="tile__label-name">
+										<?php the_title(); ?><br />
+										<?php the_field('team_member_title'); ?>
 									</div>
 									<div class="tile__label-caption">
-										<?php echo get_the_excerpt(); ?>
+										<?php the_field('team_member_summary'); ?>
 									</div>
 								</div><!-- end .tile__label-inner -->
 							</div><!-- end .tile__label-wrap -->
