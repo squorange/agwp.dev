@@ -7620,7 +7620,7 @@ th.hide-for-touch {
   color: #333333; }
 
 /***** PAGES *****/
-.header__blurb {
+.header__text-blurb {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
@@ -7644,6 +7644,9 @@ th.hide-for-touch {
 
 .prePostfix-radius--fix-right {
   border-radius: 0 3px 3px 0 !important; }
+
+.l-testimonials {
+  background: #AAAAAA; }
 
 /***** NAVIGATION MENU *****/
 .l-nav .name a.nav__logo {
@@ -7745,7 +7748,7 @@ article.ag_team {
   letter-spacing: 0.05rem;
   margin-bottom: 3em; }
 
-.post__meta-team {
+.post__summary {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
@@ -7776,16 +7779,19 @@ article.ag_team {
   .tile-single {
     width: 50%; }
 
-  .header__label-caption {
+  .header__label-caption,
+  .header__text-blurb {
     display: none; }
 
-  .header__label h1 {
+  .header__label h1,
+  .header__text-title h1 {
     font-size: 1.4rem; } }
 @media only screen and (min-width: 40.063em) {
   .tile-single {
     width: 25%; }
 
-  .header__label-caption {
+  .header__label-caption,
+  .header__text-blurb {
     display: block; } }
 .tile-single a:hover .attachment--tile {
   opacity: 0.1;

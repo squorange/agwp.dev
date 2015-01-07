@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<!-- Begin single-ag_team -->
+	<!-- Begin single-ag_build -->
 	<?php do_action('foundationPress_before_content'); ?>
 
 	<?php while (have_posts()) : the_post(); ?>
@@ -12,11 +12,10 @@
 			
 			<div class="row">
 				<div class="small-12 medium-8 medium-offset-2 columns" role="main">
-					<h1 class="entry-title"><?php the_title(); ?></h1>					
+					<h1 class="entry-title"><?php the_title(); ?></h1>
 					<div class="post__summary">
-						<?php the_field('team_member_title'); ?><br /><br />
-						<?php the_field('team_member_summary'); ?>
-					</div>
+						<?php the_field('project_summary'); ?>
+					</div>						
 					<?php the_content(); ?>
 				</div>
 			</div>

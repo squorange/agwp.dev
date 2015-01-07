@@ -16476,6 +16476,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/ag-theme\/parts\/cocreate.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/parts\/cocreate.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/ag-theme\/parts\/newsletter-signup.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -16490,6 +16499,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/parts\/off-canvas-menu.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ag-theme\/parts\/testimonials.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/parts\/testimonials.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -16695,6 +16713,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/single-ag_advise.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ag-theme\/single-ag_build.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/single-ag_build.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -23735,6 +23762,105 @@
 		"initialSize": 68317,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/share-tile02.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/share-tile02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-hkim-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6645,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-hkim-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-hkim-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-hkim-300x300.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21724,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-hkim-300x300.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-hkim-300x300.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-hkim.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34928,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-hkim.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-hkim.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-mkwan-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4893,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-mkwan-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-mkwan-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-mkwan-300x300.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12088,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-mkwan-300x300.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-mkwan-300x300.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-mkwan.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12845,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-mkwan.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-mkwan.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-shoong-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5651,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-shoong-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-shoong-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-shoong-300x300.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15506,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-shoong-300x300.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-shoong-300x300.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-team-shoong.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19668,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-shoong.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-shoong.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

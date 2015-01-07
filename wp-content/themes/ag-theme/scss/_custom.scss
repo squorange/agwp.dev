@@ -33,7 +33,7 @@
 
 /***** PAGES *****/
 
-.header__blurb {
+.header__text-blurb {
 	@include text-base-caps;
 	text-align: center;
 }
@@ -59,6 +59,9 @@
   border-radius: 0 3px 3px 0 !important;  
 }
 
+.l-testimonials {
+	background: $base;
+}
 
 
 
@@ -189,7 +192,7 @@ article.ag_team {
 	margin-bottom: 3em;
 }
 
-.post__meta-team {
+.post__summary {
 	@include text-base-caps;
 	margin-bottom: 2em;
 }
@@ -227,10 +230,12 @@ article.ag_team {
 		.tile-single {
 			width: 50%;
 		}
-		.header__label-caption {
+		.header__label-caption,
+		.header__text-blurb {
 			display: none;
 		}
-		.header__label h1 {
+		.header__label h1,
+		.header__text-title h1 {
 			font-size: 1.4rem;
 		}
 	}
@@ -239,7 +244,8 @@ article.ag_team {
 		.tile-single {
 			width: 25%;
 		}
-		.header__label-caption {
+		.header__label-caption,
+		.header__text-blurb {
 			display: block;
 		}
 	}

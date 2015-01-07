@@ -52,7 +52,7 @@ if ($queryObject->have_posts()) {
 		<div class="tile-single">
 			<a href="#">
 				<div class="tile__image-wrap">
-					<img class="tile__image attachment--tile" src="resources/tile-blank.png" />
+					<img class="tile__image attachment--tile" src="<?php echo get_stylesheet_directory_uri() ; ?>/images/tile-blank.png" />
 					<div class="tile__label-wrap">
 						<div class="tile__label-inner">
 							<div class="tile__label-title">

@@ -10,12 +10,12 @@ Template Name: Team
 	<?php while ( have_posts() ) : the_post(); ?>
 
   <div class="row row--header row--first">
-    <div class="large-12 columns">
+    <div class="large-12 columns header__text-title">
 			<h1><?php the_field('header_statement'); ?></h1>
 		</div>
 	</div>
 	<div class="row">
-		<div class="large-6 large-offset-3 columns header__blurb">
+		<div class="large-6 large-offset-3 columns header__text-blurb">
 			<?php the_field('header_blurb'); ?>
 		</div>
 	</div>
