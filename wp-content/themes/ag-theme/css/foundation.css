@@ -7607,7 +7607,7 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
-.text--bold {
+.text--bold, strong, b {
   font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
   font-weight: bold; }
 
@@ -7618,6 +7618,9 @@ th.hide-for-touch {
 
 .button:hover {
   color: #333333; }
+
+figure {
+  margin: 0 0 1em 0; }
 
 /***** PAGES *****/
 .header__text-blurb {

@@ -85,7 +85,9 @@ Template Name: Advise
 		</div>
 	</section> <!-- END TILES -->
 
+<!--
 	<?php get_template_part('parts/testimonials'); ?>
+-->	
 	
 	<?php get_template_part('parts/cocreate'); ?>
 

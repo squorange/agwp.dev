@@ -16,7 +16,7 @@
 	letter-spacing: 0.05rem;
 }
 
-.text--bold {
+.text--bold, strong, b {
 	font-family: $font-bold;	
 	font-weight: bold;
 }
@@ -28,7 +28,9 @@
 	color: $oil;
 }
 
-
+figure {
+	margin: 0 0 1em 0;
+}
 
 
 /***** PAGES *****/
