@@ -12205,6 +12205,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/ag-theme\/assets\/img\/icons\/icons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 729,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/assets\/img\/icons\/icons.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/assets\/img\/icons\/icons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/ag-theme\/assets\/img\/images\/logo-ag-white.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -16188,12 +16199,12 @@
 		},
 	"\/wp-content\/themes\/ag-theme\/js\/custom\/ag.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/ag.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/min\/ag-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/ag-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
@@ -16219,12 +16230,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/wp-content\/themes\/ag-theme\/js\/custom\/min\/ag-min.js": {
+	"\/wp-content\/themes\/ag-theme\/js\/custom\/jquery.mixitup.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/min\/ag-min.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/min\/min\/ag-min-min.js",
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/jquery.mixitup.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/min\/jquery.mixitup-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/ag-theme\/js\/custom\/jquery.swipebox.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/jquery.swipebox.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/min\/jquery.swipebox-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/ag-theme\/js\/foundation-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/foundation-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/min\/foundation-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -16235,10 +16268,10 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/foundation.js",
-		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/min\/foundation-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/foundation-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
 	"\/wp-content\/themes\/ag-theme\/js\/vendor\/fastclick.js": {
@@ -16265,7 +16298,7 @@
 		},
 	"\/wp-content\/themes\/ag-theme\/js\/vendor\/jquery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/vendor\/jquery.js",
 		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/vendor\/min\/jquery-min.js",
@@ -28729,6 +28762,32 @@
 	],
 "lastSavedByUser": "Will",
 "manualImportLinks": {
+	"\/wp-content\/themes\/ag-theme\/js\/foundation.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/vendor\/jquery.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/jquery.mixitup.js",
+			"position": 1,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/jquery.swipebox.js",
+			"position": 2,
+			"type": 1
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/js\/custom\/ag.js",
+			"position": 3,
+			"type": 1
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

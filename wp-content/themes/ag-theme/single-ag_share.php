@@ -6,7 +6,7 @@
 		
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header class="l-header-single-post">
-				<a href="<?php the_field('video_url'); ?>" class="fancybox-youtube"><img src="<?php the_field('header_image'); ?>" /></a>
+				<a href="<?php the_field('video_url'); ?>" class="swipebox-video"><img src="<?php the_field('header_image'); ?>" /></a>
 			</header>
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
 			
