@@ -7825,35 +7825,6 @@ html.swipebox-html.swipebox-touch {
 figure {
   margin: 0 0 1em 0; }
 
-/***** PAGES *****/
-.header__text-blurb {
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
-  text-align: center; }
-
-.row--header {
-  margin-top: 3em;
-  margin-bottom: 1em;
-  text-align: center; }
-
-.row--header + div {
-  margin-bottom: 3em; }
-
-.form__input {
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem; }
-
-.prePostfix-radius--fix-left {
-  border-radius: 3px 0 0 3px !important; }
-
-.prePostfix-radius--fix-right {
-  border-radius: 0 3px 3px 0 !important; }
-
-.l-testimonials {
-  background: #AAAAAA; }
-
 /***** NAVIGATION MENU *****/
 .l-nav .name a.nav__logo {
   display: block;
@@ -7937,6 +7908,41 @@ footer a:hover {
 
   footer div.columns {
     margin-top: 3em; } }
+/***** PAGES *****/
+.header__text-blurb {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  text-align: center; }
+
+.row--header {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  text-align: center; }
+
+.row--header + div {
+  margin-bottom: 3em; }
+
+article > section {
+  margin-top: 2em; }
+
+article section {
+  margin-bottom: 3em; }
+
+.form__input {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem; }
+
+.prePostfix-radius--fix-left {
+  border-radius: 3px 0 0 3px !important; }
+
+.prePostfix-radius--fix-right {
+  border-radius: 0 3px 3px 0 !important; }
+
+.l-testimonials {
+  background: #AAAAAA; }
+
 /***** SINGLE POSTS *****/
 .l-header-single-post {
   margin: 0 auto 1em auto;
@@ -7948,17 +7954,13 @@ article.ag_advise,
 article.ag_team {
   margin-bottom: 2em; }
 
-.post__meta {
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
-  margin-bottom: 3em; }
+.post__title {
+  margin-bottom: 2em; }
 
 .post__summary {
   font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 0.05rem;
-  margin-bottom: 2em; }
+  letter-spacing: 0.05rem; }
 
 /***** TILES *****/
 .l-header-featured {

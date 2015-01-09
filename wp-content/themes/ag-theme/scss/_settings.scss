@@ -211,7 +211,7 @@ $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 
 // We use these to control header font sizes
 $h1-font-size: $text-xlarge;
-// $h2-font-size: rem-calc(37);
+$h2-font-size: $text-small;
 // $h3-font-size: rem-calc(27);
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);

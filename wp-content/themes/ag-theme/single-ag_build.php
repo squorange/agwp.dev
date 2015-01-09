@@ -9,17 +9,21 @@
 				<a href="<?php the_field('video_url'); ?>"><img src="<?php the_field('header_image'); ?>" /></a>
 			</header>
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
-			
-			<div class="row">
-				<div class="small-12 medium-8 medium-offset-2 columns" role="main">
-					<h1 class="entry-title"><?php the_title(); ?></h1>
-					<div class="post__summary">
-						<?php the_field('project_summary'); ?>
-					</div>						
-					<?php the_content(); ?>
-				</div>
-			</div>
 
+			<section class="clearfix">			
+				<div class="row">
+					<div class="small-12 medium-8 medium-offset-2 columns" role="main">
+						<div class="post__title">
+							<h1 class="entry-title"><?php the_title(); ?></h1>
+							<div class="post__summary">
+								<?php the_field('project_summary'); ?>
+							</div>
+						</div>
+						<?php the_content(); ?>
+					</div>
+				</div>
+			</section>
+			
 		</article>
 	<?php endwhile;?>
 

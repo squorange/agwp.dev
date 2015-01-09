@@ -10,6 +10,11 @@
 	text-transform: lowercase;
 }
 
+@mixin text-large-quote {
+	font-family: $font-quote;
+	font-size: $text-large;
+}
+
 @mixin text-small-caps {
 	font-size: $text-small;
 	text-transform: uppercase;
@@ -32,38 +37,6 @@ figure {
 	margin: 0 0 1em 0;
 }
 
-
-/***** PAGES *****/
-
-.header__text-blurb {
-	@include text-base-caps;
-	text-align: center;
-}
-
-.row--header {
-	margin-top: 3em;
-	margin-bottom: 1em;
-	text-align: center;
-}
-.row--header + div {
-	margin-bottom: 3em;
-}
-
-.form__input {
-	@include text-base-caps;
-}
-
-// A fix for pre and postfix radius not working in Foundation. 
-.prePostfix-radius--fix-left {
-  border-radius: 3px 0 0 3px !important;
-}
-.prePostfix-radius--fix-right {
-  border-radius: 0 3px 3px 0 !important;  
-}
-
-.l-testimonials {
-	background: $base;
-}
 
 
 
@@ -175,6 +148,49 @@ footer {
 
 
 
+/***** PAGES *****/
+
+.header__text-blurb {
+	@include text-base-caps;
+	text-align: center;
+}
+
+.row--header {
+	margin-top: 3em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+.row--header + div {
+	margin-bottom: 3em;
+}
+
+article > section {
+	margin-top: 2em;
+}
+
+article section {
+	margin-bottom: 3em;
+}
+
+.form__input {
+	@include text-base-caps;
+}
+
+// A fix for pre and postfix radius not working in Foundation. 
+.prePostfix-radius--fix-left {
+  border-radius: 3px 0 0 3px !important;
+}
+.prePostfix-radius--fix-right {
+  border-radius: 0 3px 3px 0 !important;  
+}
+
+.l-testimonials {
+	background: $base;
+}
+
+
+
+
 /***** SINGLE POSTS *****/
 
 .l-header-single-post {
@@ -189,14 +205,12 @@ article.ag_team {
 	margin-bottom: 2em;
 }
 
-.post__meta {
-	@include text-small-caps;
-	margin-bottom: 3em;
+.post__title {
+	margin-bottom: 2em;
 }
 
 .post__summary {
 	@include text-base-caps;
-	margin-bottom: 2em;
 }
 
 

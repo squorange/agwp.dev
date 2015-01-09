@@ -10,12 +10,16 @@
 			</header>
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
 			
-			<div class="row">
-				<div class="small-12 medium-8 medium-offset-2 columns" role="main">
-					<h1 class="entry-title"><?php the_title(); ?></h1>					
-					<?php the_content(); ?>
+			<section class="clearfix">
+				<div class="row">
+					<div class="small-12 medium-8 medium-offset-2 columns" role="main">
+						<div class="post__title">					
+							<h1 class="entry-title"><?php the_title(); ?></h1>
+						</div>
+						<?php the_content(); ?>
+					</div>
 				</div>
-			</div>
+			</section>
 
 		</article>
 	<?php endwhile;?>
