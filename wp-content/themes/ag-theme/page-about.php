@@ -37,7 +37,7 @@ Template Name: About
 		</div>
 	</section>
 	
-	<section class="clearfix">
+	<section class="clearfix l-subsection section--airtight">
 		<div class="row clearfix">
 			<div class="small-12 medium-10 medium-offset-1 columns">			
 				<h2 class="post__subtitle text--center">Our 3-Part Mission</h2>
@@ -65,25 +65,7 @@ Template Name: About
 		</div>
 	</section>
 	
-	<section class="clearfix">
-		<div class="row row--header">
-	    <div class="large-10 large-offset-1 columns">
-				<h1>
-					<?php the_field('about_funding'); ?>		
-				</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-6 large-offset-3 columns header__text-blurb">
-				<?php the_field('about_funding_blurb'); ?>
-			</div>
-		</div>
-		<div class="row">
-			<div class="large-4 large-offset-4 medium-6 medium-offset-3 columns">
-				<a href="#" class="button expand radius"><span class="text--bold">Learn</span> about funding</a>
-			</div>
-		</div>	
-	</section>
+	<?php get_template_part('parts/funding'); ?>
 	
 	<section class="l-header-featured clearfix">
 		<div class="header-featured">	

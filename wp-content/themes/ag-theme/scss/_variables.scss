@@ -12,6 +12,7 @@ $text-base: 1rem;
 $text-large: 1.4rem;
 $text-xlarge: 1.8rem;
 
+$menu-collapse-padding: 18px;
 
 @mixin text-base-caps {
 	font-size: $text-base;
@@ -26,8 +27,7 @@ $text-xlarge: 1.8rem;
 
 @mixin text-xlarge-quote {
 	font-family: $font-quote;
-	font-weight: bold;
-	
+	font-weight: bold;	
 	@media #{$small-only} { 
 		font-size: $text-large;
 	}

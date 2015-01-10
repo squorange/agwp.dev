@@ -58,13 +58,30 @@ figure {
 	background: none;
 }
 
-.top-bar-section .nav__left li>a {
+.top-bar-section .nav__left li > a {
 	@include text-base-caps;
 	font-family: $font-bold;
+	@media #{$small-up} { 
+		padding-top: $menu-collapse-padding;
+		padding-bottom: $menu-collapse-padding;
+	}
+	@media #{$large-up} {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}	
 }
 
-.top-bar-section .nav__right li>a {
-	@include text-small-caps;
+.top-bar-section .nav__right li > a {
+	@media #{$small-up} { 
+		@include text-base-caps;
+		padding-top: $menu-collapse-padding;
+		padding-bottom: $menu-collapse-padding;
+	}
+	@media #{$large-up} {
+		@include text-small-caps;
+		padding-top: 0px;
+		padding-bottom: 0px;		
+	}	
 }
 
 .top-bar .toggle-topbar.menu-icon a {
@@ -158,7 +175,8 @@ footer {
 	margin-bottom: 1em;
 	text-align: center;
 }
-.row--header + div {
+.row--header + div,
+.row--last {
 	margin-bottom: 3em;
 }
 
@@ -168,6 +186,11 @@ article > section {
 
 article section {
 	margin-bottom: 3em;
+}
+
+.section--airtight {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .l-testimonials {
@@ -218,6 +241,10 @@ article.ag_team {
 	padding: 4em 0;
 }
 
+.l-subsection {
+	background: $smoke;
+	padding: 4em 0;
+}
 
 
 
