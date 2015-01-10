@@ -14608,6 +14608,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/ag-theme\/assets\/img\/icons\/icon-play.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2207,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/assets\/img\/icons\/icon-play.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/assets\/img\/icons\/icon-play.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/ag-theme\/assets\/img\/icons\/icons.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -5,9 +5,24 @@
 	<?php while (have_posts()) : the_post(); ?>
 		
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<header class="l-header-single-post">
-				<a href="<?php the_field('video_url'); ?>" class="swipebox-video"><img src="<?php the_field('header_image'); ?>" /></a>
-			</header>
+			
+			<section class="l-header-featured clearfix"> <!-- FEATURED POST -->
+				<div class="header-featured">	
+					<a href="<?php the_field('video_url'); ?>" class="swipebox-video">
+						<div class="header__image-wrap">
+							<img src="<?php the_field('header_image'); ?>" />
+							<div class="header__label-wrap">
+								<div class="header__label-inner">
+									<div class="header__label">
+										<img class="icon--play" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-play.png" />
+							 		</div>
+							 	</div>
+							</div>						
+						</div>
+					</a>
+				</div>
+			</section>
+						
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
 			
 			<section class="clearfix">

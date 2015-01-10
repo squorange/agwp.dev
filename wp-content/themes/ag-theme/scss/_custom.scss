@@ -175,8 +175,6 @@ article section {
 }
 
 
-
-
 /***** SINGLE POSTS *****/
 
 .l-header-single-post {
@@ -236,8 +234,7 @@ article.ag_team {
 	background: $charcoal;
 }
 
-.tile-single, 
-.header-featured {
+.tile-single {
 	float: left;
 	background: $ag-yellow;	
 	position:relative;
@@ -261,6 +258,10 @@ article.ag_team {
 		.header__text-title h1 {
 			font-size: 1.4rem;
 		}
+		.icon--play {
+			height: 40px;
+			width: auto;
+		}
 	}
 
 	@media #{$medium-up} { 
@@ -270,6 +271,10 @@ article.ag_team {
 		.header__label-caption,
 		.header__text-blurb {
 			display: block;
+		}
+		.icon--play {
+			height: 75px;
+			width: auto;
 		}
 	}
 
@@ -283,18 +288,23 @@ article.ag_team {
 	width:100%;
 	height:auto;
 }
-.header__image-wrap:hover img {
+.header__image-wrap:hover > img {
   opacity: 0.7;
   filter: alpha(opacity=70); /* For IE8 and earlier */
-};
+}
+.header__image-wrap > img,
+.tile-single a .attachment--tile {
+	-webkit-transition: all 0.3s; /* For Safari 3.1 to 6.0 */
+  transition: all 0.3s;
+}
 
 .tile__label-wrap,
 .header__label-wrap {
 	position:absolute;
-	top:5px;
+	top:0;
 	left:0;
 	right:0;
-	bottom:10px;
+	bottom:0;
 	overflow:auto;
 }
 

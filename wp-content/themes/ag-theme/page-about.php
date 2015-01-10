@@ -85,11 +85,23 @@ Template Name: About
 		</div>	
 	</section>
 	
-	<section class="clearfix">
-		<header>
-			<a href="<?php the_field('core_beliefs_video'); ?>" class="swipebox-video"><img src="<?php the_field('core_beliefs_screenshot'); ?>" /></a>
-		</header>
+	<section class="l-header-featured clearfix">
+		<div class="header-featured">	
+			<a href="<?php the_field('core_beliefs_video'); ?>" class="swipebox-video">
+				<div class="header__image-wrap">
+					<img src="<?php the_field('core_beliefs_screenshot'); ?>" />
+					<div class="header__label-wrap">
+						<div class="header__label-inner">
+							<div class="header__label">
+								<img class="icon--play" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-play.png" />
+					 		</div>
+					 	</div>
+					</div>						
+				</div>
+			</a>
+		</div>
 	</section>
+	
 
 	<?php endwhile; // end of the loop. ?>		
 
