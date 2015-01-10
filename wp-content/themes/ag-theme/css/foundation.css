@@ -7957,10 +7957,32 @@ article.ag_team {
 .post__title {
   margin-bottom: 2em; }
 
+.post__subtitle {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+  margin-bottom: 1.5em; }
+
 .post__summary {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem; }
+
+.post__quote {
+  font-family: "Sabon", Garamond, serif;
+  font-weight: bold;
+  text-align: center; }
+  @media only screen and (max-width: 40em) {
+    .post__quote {
+      font-size: 1.4rem; } }
+  @media only screen and (min-width: 40.063em) {
+    .post__quote {
+      font-size: 1.8rem; } }
+
+.l-testimonial {
+  background: #FDDB45;
+  padding: 4em 0; }
 
 /***** TILES *****/
 .l-header-featured {

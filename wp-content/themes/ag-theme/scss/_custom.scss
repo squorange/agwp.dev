@@ -1,25 +1,4 @@
 
-@mixin text-base-caps {
-	font-size: $text-base;
-	text-transform: uppercase;
-	letter-spacing: 0.05rem;
-}
-
-@mixin text-large-lower {
-	font-size: $text-large;
-	text-transform: lowercase;
-}
-
-@mixin text-large-quote {
-	font-family: $font-quote;
-	font-size: $text-large;
-}
-
-@mixin text-small-caps {
-	font-size: $text-small;
-	text-transform: uppercase;
-	letter-spacing: 0.05rem;
-}
 
 .text--bold, strong, b {
 	font-family: $font-bold;	
@@ -209,10 +188,25 @@ article.ag_team {
 	margin-bottom: 2em;
 }
 
+.post__subtitle {
+	@include text-base-caps;
+	font-family: $font-bold;	
+	margin-bottom: 1.5em;
+}
+
 .post__summary {
 	@include text-base-caps;
 }
 
+.post__quote {
+	@include text-xlarge-quote;
+	text-align: center;
+}
+
+.l-testimonial {
+	background: $ag-yellow;
+	padding: 4em 0;
+}
 
 
 

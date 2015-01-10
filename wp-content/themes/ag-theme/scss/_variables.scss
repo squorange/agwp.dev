@@ -6,8 +6,44 @@ $font-bold:	'Franklin Gothic Medium', 'Franklin Gothic', Arial, sans-serif;
 $font-quote: 'Sabon', Garamond, serif;
 
 $text-color: #333;
+
 $text-small: 0.7rem;
 $text-base: 1rem;
 $text-large: 1.4rem;
 $text-xlarge: 1.8rem;
 
+
+@mixin text-base-caps {
+	font-size: $text-base;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+@mixin text-large-lower {
+	font-size: $text-large;
+	text-transform: lowercase;
+}
+
+@mixin text-xlarge-quote {
+	font-family: $font-quote;
+	font-weight: bold;
+	
+	@media #{$small-only} { 
+		font-size: $text-large;
+	}
+	@media #{$medium-up} {
+		font-size: $text-xlarge;
+	}	
+}
+
+@mixin text-large-quote {
+	font-family: $font-quote;
+	font-weight: bold;
+	font-size: $text-large;
+}
+
+@mixin text-small-caps {
+	font-size: $text-small;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}

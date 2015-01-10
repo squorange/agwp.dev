@@ -3,7 +3,7 @@
 	<div class="row row--header">
     <div class="large-10 large-offset-1 columns">
 			<h1>
-			Drop us a line and see how we can work with you to achieve your goals while living out your purpose and values
+			Please contact us to see how we can help you achieve your goals while living out your purpose and values
 			</h1>
 		</div>
 	</div>

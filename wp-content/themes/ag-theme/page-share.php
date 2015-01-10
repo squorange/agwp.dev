@@ -30,11 +30,11 @@ Template Name: Share
 </section>
 
 <div class="l-filters">	
-	<button class="filter" data-filter="all">All Transformation Design</button>
-	<button class="filter" data-filter=".share__leadership-strategy">Leadership &amp; Strategy</button>
-	<button class="filter" data-filter=".share__culture-values">Culture &amp; Values</button>
-	<button class="filter" data-filter=".share__design-brand">Design &amp; Brand</button>
-	<button class="filter" data-filter=".share__innovation-trends">Innovation &amp; Trends</button>	
+	<button class="filter" data-filter="all">All Transformation Design:</button>
+	<button class="filter" data-filter=".share__leadership-strategy">Leadership / Strategy</button>
+	<button class="filter" data-filter=".share__culture-values">Culture / Values</button>
+	<button class="filter" data-filter=".share__design-brand">Design / Brand</button>
+	<button class="filter" data-filter=".share__innovation-trends">Innovation / Trends</button>	
 <!--
 	<button class="sort" data-sort="default">Default</button>
 	<button class="sort" data-sort="myorder:asc">Ascending</button>

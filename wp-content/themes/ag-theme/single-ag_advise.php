@@ -24,7 +24,7 @@
 			
 			<section class="clearfix">
 				<div class="row">
-					<div class="small-12 medium-8 medium-offset-2 columns">
+					<div class="small-12 medium-10 medium-offset-1 columns post__quote">
 						<?php the_field('project_design_challenge'); ?>				
 					</div>
 				</div>
@@ -33,7 +33,7 @@
 			<section class="clearfix">
 				<div class="row">
 					<div class="small-12 medium-8 medium-offset-2 columns">
-						<h2>Our Approach</h2>
+						<h2 class="post__subtitle">Our Approach</h2>
 						<?php the_field('project_approach'); ?>
 					</div>
 				</div>
@@ -42,16 +42,16 @@
 			<section class="clearfix">
 				<div class="row">
 					<div class="small-12 medium-8 medium-offset-2 columns">
-						<h2>Our Impact</h2>
+						<h2 class="post__subtitle">Our Impact</h2>
 						<?php the_field('project_impact'); ?>
 					</div>
 				</div>
 			</section>
 		
-			<section class="clearfix">
+			<section class="clearfix l-testimonial">
 				<div class="row">
-					<div class="small-12 medium-8 medium-offset-2 columns">
-						<h1><?php the_field('project_testimonials'); ?></h1>
+					<div class="small-12 medium-10 medium-offset-1 columns post__quote">
+						<?php the_field('project_testimonials'); ?>
 					</div>
 				</div>
 			</section>

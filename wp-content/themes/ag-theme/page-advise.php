@@ -30,7 +30,7 @@ Template Name: Advise
 </section>
 
 <div class="l-filters">	
-	<button class="filter" data-filter="all">All Case Studies</button>
+	<button class="filter" data-filter="all">All Case Studies:</button>
 	<button class="filter" data-filter=".advise__strategy">Strategy</button>
 	<button class="filter" data-filter=".advise__branding-experience">Branding / Experience Design</button>
 	<button class="filter" data-filter=".advise__leadership">Leadership Development</button>

@@ -105,16 +105,16 @@ $ag-yellow					: #FDDB45;
 // $vapor       : #F6F6F6;
 // $white-smoke : #F5F5F5;
 // $silver      : #EFEFEF;
-$smoke       : #EEEEEE;
+$smoke       				: #EEEEEE;
 // $gainsboro   : #DDDDDD;
 // $iron        : #CCCCCC;
-$base        : #AAAAAA;
+$base        				: #AAAAAA;
 // $aluminum    : #999999;
 // $jumbo       : #888888;
 // $monsoon     : #777777;
 // $steel       : #666666;
-$charcoal    : #555555;
-$tuatara     : #444444;
+$charcoal    				: #555555;
+$tuatara     				: #444444;
 $oil         			 	: #333333;
 // $jet         : #222222;
 $black      			 	: #000000;
@@ -210,8 +210,8 @@ $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (m
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
-$h1-font-size: $text-xlarge;
-$h2-font-size: $text-small;
+$h1-font-size: rem-calc(38);
+$h2-font-size: rem-calc(32);
 // $h3-font-size: rem-calc(27);
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
