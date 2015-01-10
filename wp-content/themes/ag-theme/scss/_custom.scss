@@ -5,6 +5,10 @@
 	font-weight: bold;
 }
 
+.text--center {
+	text-align: center;
+}
+
 .button {
 	@include text-base-caps;
 }
@@ -16,6 +20,21 @@ figure {
 	margin: 0 0 1em 0;
 }
 
+.form__input {
+	@include text-base-caps;
+}
+
+// A fix for pre and postfix radius not working in Foundation. 
+.prePostfix-radius--fix-left {
+  border-radius: 3px 0 0 3px !important;
+}
+.prePostfix-radius--fix-right {
+  border-radius: 0 3px 3px 0 !important;  
+}
+
+.clearfix > section {
+	margin-bottom: 2em;
+}
 
 
 
@@ -151,18 +170,6 @@ article section {
 	margin-bottom: 3em;
 }
 
-.form__input {
-	@include text-base-caps;
-}
-
-// A fix for pre and postfix radius not working in Foundation. 
-.prePostfix-radius--fix-left {
-  border-radius: 3px 0 0 3px !important;
-}
-.prePostfix-radius--fix-right {
-  border-radius: 0 3px 3px 0 !important;  
-}
-
 .l-testimonials {
 	background: $base;
 }
@@ -194,6 +201,11 @@ article.ag_team {
 	margin-bottom: 1.5em;
 }
 
+.post__sectiontitle {
+	@include text-base-caps;
+	margin-bottom: 1.5em;	
+}
+
 .post__summary {
 	@include text-base-caps;
 }
@@ -207,6 +219,7 @@ article.ag_team {
 	background: $ag-yellow;
 	padding: 4em 0;
 }
+
 
 
 

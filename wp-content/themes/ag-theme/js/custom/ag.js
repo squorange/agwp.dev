@@ -12,11 +12,17 @@ $(function(){
 // Swipebox
 
 $( document ).ready(function() {
-
 		/* Basic Gallery */
-		$( '.swipebox' ).swipebox();
-		
+		$( '.swipebox' ).swipebox();		
 		/* Video */
 		$( '.swipebox-video' ).swipebox();
-
     });
+		
+
+//	Simple Text Rotator	
+		
+$(".rotate").textrotator({
+        animation: "dissolve",
+        separator: ",",
+    speed: 2000
+    });		
