@@ -18602,6 +18602,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/ag-theme\/images\/tile-values-blank.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4365,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/images\/tile-values-blank.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/images\/tile-values-blank.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/ag-theme\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -19257,6 +19268,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/single-ag_team.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/ag-theme\/single-ag_values.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/ag-theme\/single-ag_values.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -26446,6 +26466,138 @@
 		"initialSize": 22270,
 		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-skang.jpg",
 		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-team-skang.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-01-1024x360.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56025,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-01-1024x360.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-01-1024x360.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-01-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5910,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-01-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-01-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-01-300x105.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10075,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-01-300x105.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-01-300x105.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39595,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-01.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-02-1024x360.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62151,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-02-1024x360.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-02-1024x360.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-02-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7555,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-02-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-02-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-02-300x105.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9589,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-02-300x105.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-02-300x105.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45512,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-02.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-03-1024x360.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42154,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-03-1024x360.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-03-1024x360.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-03-150x150.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3978,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-03-150x150.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-03-150x150.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-03-300x105.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5244,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-03-300x105.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-03-300x105.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp-content\/uploads\/2015\/01\/tile-values-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26715,
+		"inputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-03.jpg",
+		"outputAbbreviatedPath": "\/wp-content\/uploads\/2015\/01\/tile-values-03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

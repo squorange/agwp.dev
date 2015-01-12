@@ -79,8 +79,6 @@ Template Name: Advise
 
 			  <div class="gap"></div>
 			  <div class="gap"></div>
-			  <div class="gap"></div>
-			  <div class="gap"></div>
 
 		</div>
 	</section> <!-- END TILES -->
