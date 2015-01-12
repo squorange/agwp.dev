@@ -20,7 +20,7 @@ Template Name: About
 		</div>
 	</header>
 	
-	<section class="clearfix">
+	<section class="clearfix section--airspace">
 		<div class="row">
 			<div class="small-12 medium-8 medium-offset-2 columns" role="main">
 			<?php the_content(); ?>	
@@ -28,7 +28,7 @@ Template Name: About
 		</div>
 	</section>
 
-	<section class="clearfix">
+	<section class="clearfix section--cushion">
 		<div class="row">
 			<div class="small-12 medium-10 medium-offset-1 columns post__quote">
 				<h2 class="post__subtitle">Our Vision</h2>

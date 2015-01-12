@@ -50,7 +50,7 @@ if ($queryObject->have_posts()) {
     <?php }} ?>
 		
 		<div class="tile-single">
-			<a href="#">
+			<a href="<?php echo home_url(); ?>/share/">
 				<div class="tile__image-wrap">
 					<img class="tile__image attachment--tile" src="<?php echo get_stylesheet_directory_uri() ; ?>/images/tile-blank.png" />
 					<div class="tile__label-wrap">
