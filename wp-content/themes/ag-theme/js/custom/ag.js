@@ -176,6 +176,22 @@ $(".rotate").textrotator({
 	             }
 	         }
 	     }
+	     var formInputs = document.getElementsByTagName('textarea');
+	     for (var i = 0; i < formInputs.length; i++) {
+	         var theInput = formInputs[i];
+        
+	         if (theInput.className.match(/\bcleardefault\b/)) {  
+	             /* Add event handlers */          
+	             addEvent(theInput, 'focus', clearDefaultText, false);
+	             addEvent(theInput, 'blur', replaceDefaultText, false);
+            
+	             /* Save the current value */
+	             if (theInput.value != '') {
+	                 theInput.defaultText = theInput.value;
+	             }
+	         }
+	     }
+			 
 	 }
 
 	 function clearDefaultText(e) {
