@@ -88,7 +88,7 @@ Template Name: About
 		<div id="Container" class="l-tiles container clearfix">
 			
 			<div class="tile-single-wide">
-				<a href="<?php echo home_url(); ?>/share/">
+				<a href="#">
 					<div class="tile__image-wrap">
 						<img class="tile__image attachment--tile" src="<?php echo get_stylesheet_directory_uri() ; ?>/images/tile-values-blank.jpg" />
 						<div class="tile__label-wrap">

@@ -32,6 +32,7 @@ require_once('library/theme-support.php');
 // Add Header image
 require_once('library/custom-header.php');
 
+add_theme_support( 'post-thumbnails' );
 
 ?>
 

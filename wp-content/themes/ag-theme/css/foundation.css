@@ -8301,3 +8301,7 @@ button.filter:hover {
 
 #Container .mix {
   display: none; }
+
+/***** NINJA FORMS *****/
+.ninja-forms-field {
+  margin-bottom: 1em !important; }
