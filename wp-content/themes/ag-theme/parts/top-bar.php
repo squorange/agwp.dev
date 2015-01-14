@@ -18,9 +18,9 @@
 		    </ul>
 		    <!-- Right Nav Section -->
 		    <ul class="right nav__right">
-		      <li class="menu__item"><a href="<?php echo home_url(); ?>/projects/">Projects</a></li>
-		      <li class="menu__item"><a href="<?php echo home_url(); ?>/team/">Team</a></li>
 		      <li class="menu__item"><a href="<?php echo home_url(); ?>/about/">About</a></li>
+		      <li class="menu__item"><a href="<?php echo home_url(); ?>/team/">Team</a></li>
+		      <li class="menu__item"><a href="<?php echo home_url(); ?>/press/">Press</a></li>
 		      <li class="menu__item"><a href="<?php echo home_url(); ?>/contact/">Contact</a></li>					
 		    </ul>
 		  </section>

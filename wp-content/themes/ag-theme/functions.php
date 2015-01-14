@@ -35,5 +35,3 @@ require_once('library/custom-header.php');
 add_theme_support( 'post-thumbnails' );
 
 ?>
-
-

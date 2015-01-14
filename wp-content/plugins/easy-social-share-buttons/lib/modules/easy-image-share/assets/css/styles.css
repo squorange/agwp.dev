@@ -1,0 +1,89 @@
+/* HOVER CONTAINER */
+.essbis-hover-overlay {
+	-webkit-transition: opacity 0.5s ease-out;
+	-moz-transition: opacity 0.5s ease-out;
+	-o-transition: opacity 0.5s ease-out;
+	transition: opacity 0.5s ease-out;
+	position: absolute;
+	opacity: 0;
+}
+
+.essbis-hover-overlay.visible {
+	opacity: 1;
+}
+
+/* SHORTCODE CONTAINER */
+.essbis-shortcode-container-outer {
+	margin: 5px 0;
+}
+
+.essbis-shortcode-container-outer.essbis-left {
+	text-align: left;
+}
+
+.essbis-shortcode-container-outer.essbis-right {
+	text-align: right;
+}
+
+.essbis-shortcode-container-outer.essbis-center {
+	text-align: center;
+}
+
+.essbis-shortcode-container-outer .essbis-shortcode-container-inner {
+	display: inline-block;
+}
+
+/* THEMES */
+/* DEFAULT THEME */
+.essbis-container.essbis-default48>a>div {
+	background-image: none !important;
+}
+
+.essbis-container.essbis-default48 div {
+	width: 48px;
+	height: 48px;
+	float: left;
+	position: relative;
+}
+
+.essbis-container.essbis-default48 div .essbis-inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 24px;
+	margin-top: -12px;
+	background-image: url("../img/themes/default48.png");
+}
+
+.essbis-container.essbis-default48 div.essbis-icon-pinterest {
+	background-color: #CC2127;
+}
+
+.essbis-container.essbis-default48 div.essbis-icon-pinterest .essbis-inner
+	{
+	background-position: -37px 0;
+	margin-left: -10px;
+	width: 20px;
+}
+
+.essbis-container.essbis-default48 div.essbis-icon-twitter {
+	background-color: #55ACEE;
+}
+
+.essbis-container.essbis-default48 div.essbis-icon-twitter .essbis-inner
+	{
+	background-position: -13px 0;
+	margin-left: -12px;
+	width: 24px;
+}
+
+.essbis-container.essbis-default48 div.essbis-icon-facebook {
+	background-color: #3B5998;
+}
+
+.essbis-container.essbis-default48 div.essbis-icon-facebook .essbis-inner
+	{
+	background-position: 0 0;
+	margin-left: -6px;
+	width: 13px;
+}

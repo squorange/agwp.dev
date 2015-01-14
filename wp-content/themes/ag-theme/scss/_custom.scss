@@ -2,7 +2,6 @@
 
 .text--bold, strong, b {
 	font-family: $font-bold;	
-	font-weight: bold;
 }
 
 .text--center {
@@ -73,7 +72,8 @@ figure {
 
 .top-bar-section .nav__right li > a {
 	@media #{$small-up} { 
-		@include text-base-caps;
+		@include text-small-caps;
+		font-size: 0.9rem;
 		padding-top: $menu-collapse-padding;
 		padding-bottom: $menu-collapse-padding;
 	}
@@ -453,4 +453,8 @@ article.ag_team {
 
 .ninja-forms-field {
 	margin-bottom: 1em !important;
+}
+
+.ninja-forms-required-items {
+	display: none;
 }

@@ -5,6 +5,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import url("//hello.myfonts.net/count/2d103b");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -357,6 +358,15 @@ td,
 th {
   padding: 0; }
 
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'FranklinGothicLTCom-Bk';
+  src: url("../assets/webfonts/2D103B_0_0.eot");
+  src: url("../assets/webfonts/2D103B_0_0.eot?#iefix") format("embedded-opentype"), url("../assets/webfonts/2D103B_0_0.woff2") format("woff2"), url("../assets/webfonts/2D103B_0_0.woff") format("woff"), url("../assets/webfonts/2D103B_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'FranklinGothicLTCom-Md';
+  src: url("../assets/webfonts/2D103B_1_0.eot");
+  src: url("../assets/webfonts/2D103B_1_0.eot?#iefix") format("embedded-opentype"), url("../assets/webfonts/2D103B_1_0.woff2") format("woff2"), url("../assets/webfonts/2D103B_1_0.woff") format("woff"), url("../assets/webfonts/2D103B_1_0.ttf") format("truetype"); }
 /***** SASS VARIABLES *****/
 /*  
   ZURB Foundation components:
@@ -7903,8 +7913,7 @@ html.swipebox-html.swipebox-touch {
   font-family: Helvetica, Arial, sans-serif; }
 
 .text--bold, strong, b {
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
-  font-weight: bold; }
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif; }
 
 .text--center {
   text-align: center; }
@@ -7954,7 +7963,7 @@ figure {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif; }
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif; }
   @media only screen {
     .top-bar-section .nav__left li > a {
       padding-top: 18px;
@@ -7966,9 +7975,10 @@ figure {
 
 @media only screen {
   .top-bar-section .nav__right li > a {
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
+    font-size: 0.9rem;
     padding-top: 18px;
     padding-bottom: 18px; } }
 @media only screen and (min-width: 64.063em) {
@@ -7980,7 +7990,7 @@ figure {
     padding-bottom: 0px; } }
 
 .top-bar .toggle-topbar.menu-icon a {
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif; }
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif; }
 
 /***** FOOTER *****/
 footer {
@@ -8088,7 +8098,7 @@ article.ag_team {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-  font-family: "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
   margin-bottom: 1.5em; }
 
 .post__sectiontitle {
@@ -8103,8 +8113,7 @@ article.ag_team {
   letter-spacing: 0.05rem; }
 
 .post__quote {
-  font-family: "Sabon", Garamond, serif;
-  font-weight: bold;
+  font-family: "FranklinGothicLTCom-Bk", "ITC Franklin Gothic", "Franklin Gothic", Arial, sans-serif;
   text-align: center; }
   @media only screen and (max-width: 40em) {
     .post__quote {
@@ -8305,3 +8314,6 @@ button.filter:hover {
 /***** NINJA FORMS *****/
 .ninja-forms-field {
   margin-bottom: 1em !important; }
+
+.ninja-forms-required-items {
+  display: none; }

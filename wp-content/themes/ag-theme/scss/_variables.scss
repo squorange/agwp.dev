@@ -1,8 +1,8 @@
 /***** SASS VARIABLES *****/
 
 // Custom
-$font-base:	'ITC Franklin Gothic', 'Franklin Gothic Medium', 'Franklin Gothic', Arial, sans-serif;
-$font-bold:	'Franklin Gothic Medium', 'Franklin Gothic', Arial, sans-serif;
+$font-base:	'FranklinGothicLTCom-Bk', 'ITC Franklin Gothic', 'Franklin Gothic', Arial, sans-serif;
+$font-bold:	'FranklinGothicLTCom-Md', 'Franklin Gothic Medium', 'Franklin Gothic', Arial, sans-serif;
 $font-quote: 'Sabon', Garamond, serif;
 
 $text-color: #333;
@@ -13,6 +13,12 @@ $text-large: 1.4rem;
 $text-xlarge: 1.8rem;
 
 $menu-collapse-padding: 18px;
+
+@mixin text-small-caps {
+	font-size: $text-small;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
 
 @mixin text-base-caps {
 	font-size: $text-base;
@@ -26,8 +32,7 @@ $menu-collapse-padding: 18px;
 }
 
 @mixin text-xlarge-quote {
-	font-family: $font-quote;
-	font-weight: bold;	
+	font-family: $font-base;
 	@media #{$small-only} { 
 		font-size: $text-large;
 	}
@@ -40,10 +45,4 @@ $menu-collapse-padding: 18px;
 	font-family: $font-quote;
 	font-weight: bold;
 	font-size: $text-large;
-}
-
-@mixin text-small-caps {
-	font-size: $text-small;
-	text-transform: uppercase;
-	letter-spacing: 0.05rem;
 }

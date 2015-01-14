@@ -17,7 +17,7 @@
 					<div class="footer__links">
 						<a href="<?php echo home_url(); ?>/about/">About Us</a><br />
 						<a href="<?php echo home_url(); ?>/contact/">Contact Us</a><br />
-						<a href="<?php echo home_url(); ?>/press/">Press / Media</a><br />
+						<a href="<?php echo home_url(); ?>/funding/">Government Funding</a><br />
 						<br />
 						<a href="<?php echo home_url(); ?>/terms/">Terms of Use</a><br />
 						<a href="<?php echo home_url(); ?>/privacy/">Privacy</a>
@@ -27,9 +27,9 @@
 				<div class="footer__contact-wrap">
 					<div class="footer__contact">
 						<a class="link--contact" href="mailto:contact@awakengroup.com">contact@awakengroup.com</a><br />
-						<a href="">facebook</a> / 
-						<a href="">twitter</a> / 
-						<a href="">linkedin</a>
+						<a href="https://www.facebook.com/awakengroup">facebook</a> / 
+						<a href="https://twitter.com/awakengroup">twitter</a> / 
+						<a href="https://www.linkedin.com/company/awaken-group">linkedin</a>
 					</div>
 				</div>
 			</div>			

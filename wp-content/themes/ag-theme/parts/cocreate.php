@@ -9,7 +9,7 @@
 	</div>
 	<div class="row">
 		<div class="large-4 large-offset-4 medium-6 medium-offset-3 columns">
-			<a href="#" class="button expand radius"><span class="text--bold">Co-Create</span> with us</a>
+			<a href="#" class="button expand radius text--bold">Co-Create with us</a>
 		</div>
 	</div>	
 
