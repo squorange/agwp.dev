@@ -27,6 +27,7 @@
 				<div class="footer__contact-wrap">
 					<div class="footer__contact">
 						<a class="link--contact" href="mailto:contact@awakengroup.com">contact@awakengroup.com</a><br />
+						<br />
 						<a href="https://www.facebook.com/awakengroup">facebook</a> / 
 						<a href="https://twitter.com/awakengroup">twitter</a> / 
 						<a href="https://www.linkedin.com/company/awaken-group">linkedin</a>

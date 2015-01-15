@@ -11,7 +11,7 @@ Template Name: About
 
 <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 		
-	<header class="clearfix l-testimonial">
+	<header class="clearfix l-yellow-tall">
 	  <div class="row row--header row--first">
 	    <div class="large-12 columns header__text-title">
 				<h1>Our clients look to us for<br /><span class="rotate text--bold">Change, Transformation, Innovation, Growth, Capabilities, Inspiration, Alignment, Leadership</span></h1>

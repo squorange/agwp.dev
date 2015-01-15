@@ -3,18 +3,24 @@
 Template Name: Front Page
 */
 get_header(); ?>
-  <div class="row row--header row--first">
-    <div class="large-8 large-offset-2 columns">
-			<h1>
-			We are pioneers of <span class="text--bold">Transformation Design</span>&mdash;integrating strategy, leadership, and design to achieve sustainable outcomes for complex issues
-			</h1>
+
+
+	<?php while ( have_posts() ) : the_post(); ?>
+
+	<header class="clearfix l-yellow-short">
+		<div class="row row--header row--first">
+		  <div class="large-8 large-offset-2 columns">
+				<h1><?php the_field('header_statement'); ?></h1>
+			</div>
 		</div>
-	</div>
-	<div class="row">
-		<div class="large-4 large-offset-4 medium-6 medium-offset-3 columns">
-			<a href="<?php echo home_url(); ?>/about/" class="button expand radius text--bold">Learn More</a>
+		<div class="row">
+			<div class="large-4 large-offset-4 medium-6 medium-offset-3 columns">
+				<a href="<?php echo home_url(); ?>/about/" class="button expand radius text--bold"><?php the_field('header_blurb'); ?></a>
+			</div>
 		</div>
-	</div>	
+	</header>
+	
+	<?php endwhile; // end of the loop. ?>
 	
 <section class="clearfix"> <!-- BEGIN TILES -->
 	<div id="Container" class="l-tiles container clearfix">
