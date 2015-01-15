@@ -7943,6 +7943,10 @@ figure {
 .clearfix > section {
   margin-bottom: 2em; }
 
+.l-header-featured, .l-header-single-post {
+  max-width: 2500px;
+  margin: 0 auto; }
+
 .l-yellow-tall {
   background: #FDDB45;
   padding: 4em 0; }
@@ -7955,6 +7959,22 @@ figure {
   .l-yellow-short .button:hover, .l-yellow-short button:hover {
     background: #FFFFFF;
     color: #333333; }
+
+.l-header-single-post {
+  margin: 0 auto 1em auto; }
+
+section.l-gray-light {
+  background: #EEEEEE; }
+
+div.l-gray-light {
+  background: #EEEEEE;
+  padding: 4em 0; }
+
+.l-gray-dark {
+  background: #555555;
+  padding: 3em 0 2em 0; }
+  .l-gray-dark h2, .l-gray-dark h3 {
+    color: #FFFFFF; }
 
 /***** NAVIGATION MENU *****/
 /* 
@@ -8108,14 +8128,7 @@ article section {
 .section--cushion {
   margin-bottom: 5em; }
 
-.l-testimonials {
-  background: #AAAAAA; }
-
 /***** SINGLE POSTS *****/
-.l-header-single-post {
-  margin: 0 auto 1em auto;
-  max-width: 2500px; }
-
 article.ag_share,
 article.ag_give,
 article.ag_advise,
@@ -8153,15 +8166,7 @@ article.ag_team {
     .post__quote {
       font-size: 1.8rem; } }
 
-.l-subsection {
-  background: #EEEEEE;
-  padding: 4em 0; }
-
 /***** TILES *****/
-.l-header-featured {
-  max-width: 2500px;
-  margin: 0 auto; }
-
 .l-tiles {
   max-width: 2500px;
   margin: 0 auto;
@@ -8171,6 +8176,10 @@ article.ag_team {
 .tile-single-wide {
   float: left;
   background: #FDDB45;
+  position: relative; }
+
+.tile-panel {
+  float: left;
   position: relative; }
 
 .header-featured {
@@ -8188,7 +8197,7 @@ article.ag_team {
   .tile-single {
     width: 50%; }
 
-  .tile-single-wide {
+  .tile-single-wide, .tile-panel {
     width: 100%; }
 
   .header__label-caption,
@@ -8205,7 +8214,7 @@ article.ag_team {
   .tile-single {
     width: 25%; }
 
-  .tile-single-wide {
+  .tile-single-wide, .tile-panel {
     width: 50%; }
 
   .header__label-caption,
@@ -8230,7 +8239,8 @@ article.ag_team {
   filter: alpha(opacity=70);
   /* For IE8 and earlier */ }
 
-.header__image-wrap:hover .icon--play {
+.header__image-wrap:hover .icon--play,
+.tile__image-wrap:hover .icon--play {
   opacity: 1;
   filter: alpha(opacity=100);
   /* For IE8 and earlier */ }

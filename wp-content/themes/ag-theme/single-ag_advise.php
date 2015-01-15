@@ -48,7 +48,7 @@
 				</div>
 			</section>
 		
-			<section class="clearfix l-testimonial">
+			<section class="clearfix l-yellow-short">
 				<div class="row">
 					<div class="small-12 medium-10 medium-offset-1 columns post__quote">
 						<?php the_field('project_testimonials'); ?>

@@ -28,7 +28,7 @@ Template Name: About
 		</div>
 	</section>
 
-	<section class="clearfix section--cushion">
+	<section class="clearfix l-gray-light section--cushion">
 		<div class="row">
 			<div class="small-12 medium-10 medium-offset-1 columns post__quote">
 				<h2 class="post__subtitle">Our Vision</h2>
@@ -37,7 +37,7 @@ Template Name: About
 		</div>
 	</section>
 	
-	<section class="clearfix l-subsection section--airtight">
+	<section class="clearfix">
 		<div class="row clearfix">
 			<div class="small-12 medium-10 medium-offset-1 columns">			
 				<h2 class="post__subtitle text--center">Our 3-Part Mission</h2>
@@ -64,23 +64,13 @@ Template Name: About
 				</div>
 		</div>
 	</section>
-	
-	<?php get_template_part('parts/funding'); ?>
-	
-	<section class="l-header-featured clearfix">
-		<div class="header-featured">	
-			<a href="<?php the_field('core_beliefs_video'); ?>" class="swipebox-video">
-				<div class="header__image-wrap">
-					<img src="<?php the_field('core_beliefs_screenshot'); ?>" />
-					<div class="header__label-wrap">
-						<div class="header__label-inner">
-							<div class="header__label">
-								<img class="icon--play" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-play.png" />
-					 		</div>
-					 	</div>
-					</div>						
-				</div>
-			</a>
+		
+	<section class="l-header-featured l-gray-dark section--airtight clearfix">
+		<div class="row">
+			<div class="small-12 medium-10 medium-offset-1 columns">			
+				<h2 class="post__subtitle text--center">Our Values</h2>
+				<h3 class="post__sectiontitle text--center"><?php the_field('values_blurb'); ?></h3>				
+			</div>
 		</div>
 	</section>
 
@@ -88,17 +78,14 @@ Template Name: About
 		<div id="Container" class="l-tiles container clearfix">
 			
 			<div class="tile-single-wide">
-				<a href="#">
+				<a href="<?php the_field('core_beliefs_video'); ?>" class="swipebox-video">
 					<div class="tile__image-wrap">
-						<img class="tile__image attachment--tile" src="<?php echo get_stylesheet_directory_uri() ; ?>/images/tile-values-blank.jpg" />
+						<img class="tile__image attachment--tile" src="<?php the_field('core_beliefs_screenshot'); ?>" />
 						<div class="tile__label-wrap">
 							<div class="tile__label-inner">
-								<div class="tile__label-title-alt text--bold">
-									Our Values
-								</div>
-								<div class="tile__label-caption">
-									Our core beliefs define who we are and our approach in how we serve our clients
-								</div>							
+							<div class="header__label">
+								<img class="icon--play" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-play.png" />
+					 		</div>						
 							</div>
 						</div>
 					</div>
