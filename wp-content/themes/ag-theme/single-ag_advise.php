@@ -25,8 +25,7 @@
 				<div class="row">
 					<div class="small-12 medium-8 medium-offset-2 columns">
 						<h2 class="post__subtitle">The Story</h2>
-						<?php the_field('project_story'); ?>
-						<br /><br />
+						<p><?php the_field('project_story'); ?></p>
 					</div>
 				</div>
 			
@@ -45,13 +44,6 @@
 
 			<section class="clearfix">
 				
-				<div class="row">
-					<div class="small-12 medium-8 medium-offset-2 columns">
-						<h2 class="post__subtitle">Objectives</h2>
-						<?php the_field('project_objectives'); ?>
-					</div>
-				</div>				
-
 				<div class="row">
 					<div class="small-12 medium-8 medium-offset-2 columns">
 						<h2 class="post__subtitle">Objectives</h2>
@@ -77,8 +69,9 @@
 		
 			<section class="clearfix l-gray-light">
 				<div class="row">
-					<div class="small-12 medium-8 medium-offset-2 columns">
-						<?php the_field('project_testimonials'); ?>
+					<div class="small-12 medium-8 medium-offset-2 columns text--center">
+						<h2 class="post__subtitle">Here's what our client has to say</h2>
+						<p><?php the_field('project_testimonials'); ?></p>
 					</div>
 				</div>
 			</section>

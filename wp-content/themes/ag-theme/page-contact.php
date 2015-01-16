@@ -19,7 +19,25 @@ Template Name: Contact
 				<p class="form__input">
 				<?php the_field('header_blurb'); ?>
 				</p>
-				<?php the_content(); ?>					
+				<div class="clearfix">
+				<address class="vcard"> 
+				<h2 class="text--bold org">Singapore</h2>
+				<div class="adr"><span class="street-address">51 Waterloo St #03-06</span><br />
+				<span class="locality">Singapore</span> <span class="postal-code">187969</span></div>
+				<div class="tel">+65 6337 6642</div>
+				</address>
+				</div>
+				<br />
+
+				<div class="clearfix">
+				<address class="vcard"> 
+				<h2 class="text--bold org">USA</h2>
+				<div class="adr"><span class="street-address">445 S Figueroa #2600</span><br />
+				<span class="locality">Los Angeles</span> <abbr class="region" title="California">CA</abbr> <span class="postal-code">90071</span></div>
+				<div class="tel">+1 310 265 9029</div>
+				</address>
+				</div>
+				<br />&nbsp;<br />
 			</div>
 			<div class="medium-6 columns">
 				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); }; ?>
@@ -34,15 +52,17 @@ Template Name: Contact
 		<div class="tile-panel">
 			<div class="row l-gray-light">
 				<div class="large-10 large-offset-1 columns">
-					<span class="post__sectiontitle text--bold">Getting to our office</span> <img class="icon--map" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-map-pin.png" />
-					<br /><br />
+					<h2 class="text--bold">Getting to our office <img class="icon--map" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-map-pin.png" /></h2>
+					<p>
 					51 Waterloo St #03-06, Singapore 187969
-					<br /><br />
+					</p><p>
 					We encourage using public transportation or taxis as parking nearby can be difficult. Our nearest MRT station is Bras Basah.
-					<br /><br />
-					<span class="post__sectiontitle text--bold">Parking Directions</span> <img class="icon--map" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-map-p.png" />
-					<br /><br />
-					The nearest carpark is located underground at NTUC and can be accessed from Queen Street. To get to our office, walk along Queen Street towards Middle Road. Turn left into the small street in front of Oxford Hotel and continue past the painted wall mural. Walk into the white colonial building and up to the 3rd floor. Make a right and you’ll find our office at the end of the hall! 			</div>
+					</p>
+					<h2 class="text--bold">Parking Directions  <img class="icon--map" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-map-p.png" /></h2>
+					<p>
+					The nearest carpark is located underground at NTUC and can be accessed from Queen Street. To get to our office, walk along Queen Street towards Middle Road. Turn left into the small street in front of Oxford Hotel and continue past the painted wall mural. Walk into the white colonial building and up to the 3rd floor. Make a right and you’ll find our office at the end of the hall!
+					</p>
+ 			</div>
 		</div>		
 	</section>
 			

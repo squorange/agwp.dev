@@ -9,7 +9,7 @@
 						Singapore 187969<br />
 						<br />
 						<span class="text--bold">USA</span><br />
-						445 S Figueroa #2600<br />
+						445 S Figueroa St #2600<br />
 						Los Angeles CA 90071<br />
 					</div>
 				</div>
@@ -39,7 +39,7 @@
 		
 		<div class="row">
 			<div class="large-12 columns">
-				&copy; 2014 Awaken Group. All rights reserved.
+				&copy; 2015 Awaken Group. All rights reserved.
 			</div>
 		</div>
 

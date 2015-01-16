@@ -7912,6 +7912,11 @@ html.swipebox-html.swipebox-touch {
   line-height: 43px;
   font-family: Helvetica, Arial, sans-serif; }
 
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem; }
+
 .text--bold, strong, b {
   font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
   font-weight: normal; }

@@ -43,7 +43,12 @@ Template Name: About
 				<h2 class="post__subtitle text--center">Our 3-Part Mission</h2>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row clearfix">
+			<div class="small-12 medium-8 medium-offset-2 columns">			
+				<img src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/images/img-mission.png" />
+			</div>
+		</div>
+		<div class="row clearfix">
 				<div class="small-12 medium-4 columns clearfix">
 					<section>										
 					<h3 class="post__sectiontitle text--center">Raise Consciousness</h3>				

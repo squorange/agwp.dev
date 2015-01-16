@@ -3,7 +3,7 @@
 	<div class="row row--header">
     <div class="large-10 large-offset-1 columns">
 			<h1>
-			Keep up to date on the latest in <span class="text--bold">Transformation Design</span>&mdash;Leadership, Culture, Design &amp; Innovation
+			Keep up-to-date on the latest in <span class="text--bold">Transformation Design</span>&mdash;Leadership, Culture, Design &amp; Innovation
 			</h1>
 		</div>
 	</div>
