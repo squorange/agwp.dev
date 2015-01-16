@@ -13,11 +13,13 @@ Template Name: Contact
 		
 	<section class="clearfix">
 		<div class="row">
-			<div class="medium-6 columns l-contact">
-				<h1 class="text--bold"><?php the_field('header_statement'); ?></h1>
-				<span class="form__input">
+			<div class="medium-6 columns">
+				<h1><?php the_field('header_statement'); ?></h1>
+				<br />
+				<p class="form__input">
 				<?php the_field('header_blurb'); ?>
-				</span>
+				</p>
+				<?php the_content(); ?>					
 			</div>
 			<div class="medium-6 columns">
 				<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); }; ?>
@@ -34,10 +36,7 @@ Template Name: Contact
 				<div class="large-10 large-offset-1 columns">
 					<span class="post__sectiontitle text--bold">Getting to our office</span> <img class="icon--map" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-map-pin.png" />
 					<br /><br />
-					<address class="vcard"> 
-						<div class="adr"><span class="street-address">51 Waterloo St #03-06</span>, <span class="locality">Singapore</span> <span class="postal-code">187969</span></div>
-						<div class="tel">+65 6337 6642</div>
-					</address>
+					51 Waterloo St #03-06, Singapore 187969
 					<br /><br />
 					We encourage using public transportation or taxis as parking nearby can be difficult. Our nearest MRT station is Bras Basah.
 					<br /><br />
