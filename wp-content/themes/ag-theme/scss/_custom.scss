@@ -1,7 +1,6 @@
-
-
 .text--bold, strong, b {
 	font-family: $font-bold;	
+	font-weight: normal;
 }
 
 .text--center {
@@ -21,6 +20,13 @@ figure {
 
 .form__input {
 	@include text-base-caps;
+}
+
+.vcard {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;	
 }
 
 // A fix for pre and postfix radius not working in Foundation. 
@@ -62,12 +68,9 @@ figure {
 	margin: 0 auto 1em auto;
 }
 
-section.l-gray-light {
+.l-gray-light {
 	background: $smoke;
-}
-div.l-gray-light {
-	background: $smoke;
-	padding: 4em 0;
+	padding: 4em 0;	
 }
 
 .l-gray-dark {
@@ -78,6 +81,27 @@ div.l-gray-light {
 	}
 }
 
+.l-contact {
+	@media #{$small-up} { 
+		margin-bottom: 2em;
+	}
+	@media #{$medium-up} {
+		margin-top: 10em;
+	}	
+}
+
+.section--airtight {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.section--airspace {
+	margin-top: 3em;
+}
+
+.section--cushion {
+	margin-bottom: 5em;
+}
 
 
 
@@ -251,19 +275,6 @@ article section {
 	margin-bottom: 3em;
 }
 
-.section--airtight {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-.section--airspace {
-	margin-top: 3em;
-}
-
-.section--cushion {
-	margin-bottom: 5em;
-}
-
 
 
 
@@ -348,7 +359,7 @@ article.ag_team {
 		}
 		.header__label h1,
 		.header__text-title h1 {
-			font-size: 1.4rem;
+//			font-size: 1.4rem;
 		}
 		.icon--play {
 			height: 50px;
@@ -505,4 +516,46 @@ article.ag_team {
 
 .ninja-forms-required-items {
 	display: none;
+}
+
+
+
+/***** GOOGLE MAPS *****/
+
+#ag_map {
+      height:550px;
+      width:100%;
+			img {
+				max-width: none;
+			}
+  }
+  .gm-style-iw * {
+      display: block;
+      width: 100%;
+  }
+  .gm-style-iw h4, .gm-style-iw p {
+      margin: 0;
+      padding: 0;
+  }
+  .gm-style-iw a {
+      color: #4272db;
+  }
+
+.icon--map {
+	width: 25px;
+	height: auto;
+}	
+
+.l-map {
+	background: $smoke;
+	@media #{$small-up} { 
+		.l-gray-light {
+			padding: 2em 0;
+		}
+	}
+	@media #{$large-up} {
+		.l-gray-light {
+			padding: 4em 0;	
+		}
+	}	
 }

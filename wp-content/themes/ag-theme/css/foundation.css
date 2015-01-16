@@ -7913,7 +7913,8 @@ html.swipebox-html.swipebox-touch {
   font-family: Helvetica, Arial, sans-serif; }
 
 .text--bold, strong, b {
-  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif; }
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+  font-weight: normal; }
 
 .text--center {
   text-align: center; }
@@ -7933,6 +7934,12 @@ figure {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem; }
+
+.vcard {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal; }
 
 .prePostfix-radius--fix-left {
   border-radius: 3px 0 0 3px !important; }
@@ -7963,10 +7970,7 @@ figure {
 .l-header-single-post {
   margin: 0 auto 1em auto; }
 
-section.l-gray-light {
-  background: #EEEEEE; }
-
-div.l-gray-light {
+.l-gray-light {
   background: #EEEEEE;
   padding: 4em 0; }
 
@@ -7975,6 +7979,23 @@ div.l-gray-light {
   padding: 3em 0 2em 0; }
   .l-gray-dark h2, .l-gray-dark h3 {
     color: #FFFFFF; }
+
+@media only screen {
+  .l-contact {
+    margin-bottom: 2em; } }
+@media only screen and (min-width: 40.063em) {
+  .l-contact {
+    margin-top: 10em; } }
+
+.section--airtight {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.section--airspace {
+  margin-top: 3em; }
+
+.section--cushion {
+  margin-bottom: 5em; }
 
 /***** NAVIGATION MENU *****/
 /* 
@@ -8118,16 +8139,6 @@ article > section {
 article section {
   margin-bottom: 3em; }
 
-.section--airtight {
-  margin-top: 0;
-  margin-bottom: 0; }
-
-.section--airspace {
-  margin-top: 3em; }
-
-.section--cushion {
-  margin-bottom: 5em; }
-
 /***** SINGLE POSTS *****/
 article.ag_share,
 article.ag_give,
@@ -8203,10 +8214,6 @@ article.ag_team {
   .header__label-caption,
   .header__text-blurb {
     display: none; }
-
-  .header__label h1,
-  .header__text-title h1 {
-    font-size: 1.4rem; }
 
   .icon--play {
     height: 50px; } }
@@ -8354,3 +8361,34 @@ button.filter:hover {
 
 .ninja-forms-required-items {
   display: none; }
+
+/***** GOOGLE MAPS *****/
+#ag_map {
+  height: 550px;
+  width: 100%; }
+  #ag_map img {
+    max-width: none; }
+
+.gm-style-iw * {
+  display: block;
+  width: 100%; }
+
+.gm-style-iw h4, .gm-style-iw p {
+  margin: 0;
+  padding: 0; }
+
+.gm-style-iw a {
+  color: #4272db; }
+
+.icon--map {
+  width: 25px;
+  height: auto; }
+
+.l-map {
+  background: #EEEEEE; }
+  @media only screen {
+    .l-map .l-gray-light {
+      padding: 2em 0; } }
+  @media only screen and (min-width: 64.063em) {
+    .l-map .l-gray-light {
+      padding: 4em 0; } }

@@ -52,6 +52,7 @@
 </div>
 
 <?php wp_footer(); ?>
+<script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script>
 <?php do_action('foundationPress_before_closing_body'); ?>
 </body>
 </html>

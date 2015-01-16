@@ -13,10 +13,10 @@ Template Name: Contact
 		
 	<section class="clearfix">
 		<div class="row">
-			<div class="medium-6 columns">
-				<h1 class="text--bold">Let's work together!</h1>
+			<div class="medium-6 columns l-contact">
+				<h1 class="text--bold"><?php the_field('header_statement'); ?></h1>
 				<span class="form__input">
-					<?php the_content(); ?>	
+				<?php the_field('header_blurb'); ?>
 				</span>
 			</div>
 			<div class="medium-6 columns">
@@ -25,22 +25,28 @@ Template Name: Contact
 		</div>
 	</section>
 	
-	<section class="clearfix l-gray-light">
+	<section class="clearfix l-map">
 		<div class="tile-panel">
-			<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:100%;"><div id="gmap_canvas" style="height:500px;width:800px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.trivoo.net/gutscheine/fleurop/" id="get-map-data">trivoo</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(1.2982647,103.85118590000002),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(1.2982647, 103.85118590000002)});infowindow = new google.maps.InfoWindow({content:"<b>Awaken Group</b><br/>51 Waterloo St<br/> Singapore" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+			<div id='ag_map'></div>
 		</div>
 		<div class="tile-panel">
 			<div class="row l-gray-light">
 				<div class="large-10 large-offset-1 columns">
-					<h3 class="post__sectiontitle">Getting to our office</h3>									
-					We encourage using public transportation or taxis as parking nearby can be difficult to find.  The closest MRT station to our office is at Bras Basah, City Hall or Bugis.  					<br /><br />
-					<h3 class="post__sectiontitle">Parking</h3>									
-					The nearest parking location is located underground at NTUC from the Queen Street entrance. Walk outside on Queen Street past the Singapore Art Museum towards SAM at 8Q Square. When you see Oxford Hotel, turn left into the small street and walk past the wall of Graffiti. Walk into the white colonial building and come up to the 3rd floor. Make a right and our office is right there!
-	 			</div>
-			</div>
+					<span class="post__sectiontitle text--bold">Getting to our office</span> <img class="icon--map" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-map-pin.png" />
+					<br /><br />
+					<address class="vcard"> 
+						<div class="adr"><span class="street-address">51 Waterloo St #03-06</span>, <span class="locality">Singapore</span> <span class="postal-code">187969</span></div>
+						<div class="tel">+65 6337 6642</div>
+					</address>
+					<br /><br />
+					We encourage using public transportation or taxis as parking nearby can be difficult. Our nearest MRT station is Bras Basah.
+					<br /><br />
+					<span class="post__sectiontitle text--bold">Parking Directions</span> <img class="icon--map" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-map-p.png" />
+					<br /><br />
+					The nearest carpark is located underground at NTUC and can be accessed from Queen Street. To get to our office, walk along Queen Street towards Middle Road. Turn left into the small street in front of Oxford Hotel and continue past the painted wall mural. Walk into the white colonial building and up to the 3rd floor. Make a right and you’ll find our office at the end of the hall! 			</div>
 		</div>		
 	</section>
-	
+			
 	<?php endwhile; // end of the loop. ?>		
 
 </article>

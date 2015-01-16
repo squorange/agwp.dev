@@ -11,7 +11,7 @@
 		<div class="large-8 large-offset-2 columns">
       <div class="row collapse postfix-radius">
         <div class="small-8 columns">
-          <input class="prePostfix-radius--fix-left form__input" type="text" placeholder="What is your email address?">
+          <input class="prePostfix-radius--fix-left form__input" type="text" placeholder="What is your email?">
         </div>
         <div class="small-4 columns">
           <a href="#" class="button radius postfix"><span class="text--bold">Sign up</span></a>
