@@ -74,4 +74,6 @@ Template Name: Contact
 
 	<?php do_action('foundationPress_after_content'); ?>
 
+<script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script>
+
 <?php get_footer(); ?>
