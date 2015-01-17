@@ -218,7 +218,7 @@ $h2-font-size: rem-calc(32);
 // $h6-font-size: 1rem;
 
 // We use these to control header size reduction on small screens
-// $h1-font-reduction: rem-calc(10) !default;
+$h1-font-reduction: rem-calc(20) !default;
 // $h2-font-reduction: rem-calc(10) !default;
 // $h3-font-reduction: rem-calc(5) !default;
 // $h4-font-reduction: rem-calc(5) !default;
@@ -617,13 +617,13 @@ $button-bg-hover: $ag-yellow;
 // $include-html-form-classes: $include-html-classes;
 
 // We use this to set the base for lots of form spacing and positioning styles
-$form-spacing: rem-calc(32);
+$form-spacing: rem-calc(10);
 
 // We use these to style the labels in different ways
 // $form-label-pointer: pointer;
 // $form-label-font-size: rem-calc(14);
 // $form-label-font-weight: $font-weight-normal;
-// $form-label-line-height: 1.5;
+$form-label-line-height: 1;
 // $form-label-font-color: scale-color($black, $lightness: 30%);
 // $form-label-small-transform: capitalize;
 // $form-label-bottom-margin: 0;

@@ -9,7 +9,7 @@
 						Singapore 187969<br />
 						<br />
 						<span class="text--bold">USA</span><br />
-						445 S Figueroa #2600<br />
+						445 S Figueroa St #2600<br />
 						Los Angeles CA 90071<br />
 					</div>
 				</div>
@@ -27,6 +27,7 @@
 				<div class="footer__contact-wrap">
 					<div class="footer__contact">
 						<a class="link--contact" href="mailto:contact@awakengroup.com">contact@awakengroup.com</a><br />
+						<br />
 						<a href="https://www.facebook.com/awakengroup">facebook</a> / 
 						<a href="https://twitter.com/awakengroup">twitter</a> / 
 						<a href="https://www.linkedin.com/company/awaken-group">linkedin</a>
@@ -34,11 +35,9 @@
 				</div>
 			</div>			
 		</div>
-		
-		
 		<div class="row">
 			<div class="large-12 columns">
-				&copy; 2014 Awaken Group. All rights reserved.
+				&copy; 2015 Awaken Group. All rights reserved.
 			</div>
 		</div>
 
@@ -51,6 +50,18 @@
 </div>
 
 <?php wp_footer(); ?>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-58632349-1', 'auto');
+	ga('require', 'linkid', 'linkid.js');	
+	ga('send', 'pageview');
+</script>
+	
 <?php do_action('foundationPress_before_closing_body'); ?>
 </body>
 </html>

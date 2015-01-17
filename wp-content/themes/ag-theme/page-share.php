@@ -7,27 +7,22 @@ Template Name: Share
 
 	<?php do_action('foundationPress_before_content'); ?>
 
-<section class="l-header-featured clearfix"> <!-- FEATURED POST -->
-	<div class="header-featured">	
-		<?php while ( have_posts() ) : the_post(); ?>
-			<a href="<?php the_field('featured_post_url'); ?>">
-				<div class="header__image-wrap">
-					<img src="<?php the_field('featured_banner_image'); ?>" />
-					<div class="header__label-wrap">
-						<div class="header__label-inner">
-								<div class="header__label">
-									<h1><?php the_field('featured_title'); ?></h1>
-									<div class="header__label-caption">
-									<?php the_field('featured_blurb'); ?>
-									</div>
-								</div>
-						</div>				
-					</div>
-				</div>
-			</a>		
-		<?php endwhile; // end of the loop. ?>	
-	</div>	
-</section>
+	<?php while ( have_posts() ) : the_post(); ?>
+
+	<header class="clearfix l-yellow-short">
+	  <div class="row row--header row--first">
+	    <div class="large-12 columns header__text-title">
+				<h1><?php the_field('header_statement'); ?></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-6 large-offset-3 columns header__text-blurb">
+				<?php the_field('header_blurb'); ?>
+			</div>
+		</div>	
+	</header>
+
+	<?php endwhile; // end of the loop. ?>
 
 <div class="l-filters">	
 	<button class="filter" data-filter="all">All Transformation Design:</button>

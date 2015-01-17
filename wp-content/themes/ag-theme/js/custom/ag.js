@@ -211,3 +211,215 @@ $(".rotate").textrotator({
 	         target.value = target.defaultText;
 	     }
 	 }
+	 
+	 
+	 
+// Google Maps Styling
+	 
+    google.maps.event.addDomListener(window, 'load', init);
+    var map;
+    function init() {
+        var mapOptions = {
+            center: new google.maps.LatLng(1.297317,103.85155),
+            zoom: 17,
+            zoomControl: true,
+            zoomControlOptions: {
+                style: google.maps.ZoomControlStyle.SMALL,
+            },
+            disableDoubleClickZoom: true,
+            mapTypeControl: false,
+            scaleControl: true,
+            scrollwheel: false,
+            panControl: true,
+            streetViewControl: false,
+//          draggable : true,
+            overviewMapControl: false,
+            overviewMapControlOptions: {
+                opened: false,
+            },
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [
+    {
+        "featureType": "administrative.province",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 65
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape.man_made",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "lightness": "-10"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 51
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 30
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 40
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#ffff00"
+            },
+            {
+                "lightness": -25
+            },
+            {
+                "saturation": -97
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": -25
+            },
+            {
+                "saturation": -100
+            }
+        ]
+    }
+],
+        }
+				var mapElement = document.getElementById('ag_map');
+				        var map = new google.maps.Map(mapElement, mapOptions);
+				        var locations = [
+				['Awaken Group', '51 Waterloo St. #03-06<br />Singapore 187969<br />', '+65 6337 6642', '', 'undefined', 1.2980448153109914, 103.85142729881136, 'http://agtest.squorange.com/resources/icon-map-pin.png'],['NTUC Carpark', 'Enter from Queen St.', 'undefined', 'undefined', 'undefined', 1.2968434912953895, 103.8514464318771, 'http://agtest.squorange.com/resources/icon-map-p.png']
+				        ];
+				        for (i = 0; i < locations.length; i++) {
+							if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
+							if (locations[i][2] =='undefined'){ telephone ='';} else { telephone = locations[i][2];}
+							if (locations[i][3] =='undefined'){ email ='';} else { email = locations[i][3];}
+				           if (locations[i][4] =='undefined'){ web ='';} else { web = locations[i][4];}
+				           if (locations[i][7] =='undefined'){ markericon ='';} else { markericon = locations[i][7];}
+				            marker = new google.maps.Marker({
+				                icon: markericon,
+				                position: new google.maps.LatLng(locations[i][5], locations[i][6]),
+				                map: map,
+				                title: locations[i][0],
+				                desc: description,
+				                tel: telephone,
+				                email: email,
+				                web: web
+				            });
+				link = '';            bindInfoWindow(marker, map, locations[i][0], description, telephone, email, web, link);
+				     }
+				 function bindInfoWindow(marker, map, title, desc, telephone, email, web, link) {
+				      var infoWindowVisible = (function () {
+				              var currentlyVisible = false;
+				              return function (visible) {
+				                  if (visible !== undefined) {
+				                      currentlyVisible = visible;
+				                  }
+				                  return currentlyVisible;
+				               };
+				           }());
+				           iw = new google.maps.InfoWindow();
+				           google.maps.event.addListener(marker, 'click', function() {
+				               if (infoWindowVisible()) {
+				                   iw.close();
+				                   infoWindowVisible(false);
+				               } else {
+				                   var html= "<div style='color:#000;background-color:#fff;padding:5px;width:150px;'><h2 class='form__input'>"+title+"</h2>"+desc+telephone+"</div>";
+				                   iw = new google.maps.InfoWindow({content:html});
+				                   iw.open(map,marker);
+				                   infoWindowVisible(true);
+				               }
+				        });
+				        google.maps.event.addListener(iw, 'closeclick', function () {
+				            infoWindowVisible(false);
+				        });
+				 }
+				}       

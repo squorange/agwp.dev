@@ -1,7 +1,10 @@
-
+h2 {
+	@include text-base-caps;
+}
 
 .text--bold, strong, b {
 	font-family: $font-bold;	
+	font-weight: normal;
 }
 
 .text--center {
@@ -23,6 +26,13 @@ figure {
 	@include text-base-caps;
 }
 
+.vcard {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;	
+}
+
 // A fix for pre and postfix radius not working in Foundation. 
 .prePostfix-radius--fix-left {
   border-radius: 3px 0 0 3px !important;
@@ -35,9 +45,90 @@ figure {
 	margin-bottom: 2em;
 }
 
+.l-header-featured {
+	max-width: 2500px;
+	margin: 0 auto;
+}
+
+.l-yellow-tall {
+	background: $ag-yellow;
+	padding: 4em 0;
+}
+
+.l-yellow-short {
+	background: $ag-yellow;
+	padding: 2em 0;
+	.button, button {
+		color: $white;
+	}
+	.button:hover, button:hover {
+		background: $white;
+		color: $oil;
+	}
+}
+
+.l-header-single-post {
+	@extend .l-header-featured;
+	margin: 0 auto 1em auto;
+}
+
+.l-gray-light {
+	background: $smoke;
+	padding: 4em 0;	
+}
+
+.l-gray-dark {
+	background: $charcoal;
+	padding: 3em 0 2em 0;
+	h2, h3 {
+	color: $white;
+	}
+}
+
+.l-contact {
+	@media #{$small-up} { 
+		margin-bottom: 2em;
+	}
+	@media #{$medium-up} {
+		margin-top: 10em;
+	}	
+}
+
+.section--airtight {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.section--airspace {
+	margin-top: 3em;
+}
+
+.section--cushion {
+	margin-bottom: 5em;
+}
+
 
 
 /***** NAVIGATION MENU *****/
+
+/* 
+@media #{$large-up} {
+	.page-template-page-advise .menu--advise,
+	.page-template-page-build .menu--build,
+	.page-template-page-give .menu--give,
+	.page-template-page-share .menu--share,
+	.page-template-page-about .menu--about,
+	.page-template-page-press .menu--press,
+	.page-template-page-contact .menu--contact,
+	.page-template-page-team .menu--team {
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		height: 70px;
+		border-bottom: 5px solid $ag-yellow;
+		}
+}
+*/
 
 .l-nav .name a.nav__logo {
 	display: block;
@@ -87,10 +178,6 @@ figure {
 .top-bar .toggle-topbar.menu-icon a {
 	font-family: $font-bold;	
 }
-
-//	.top-bar .toggle-topbar.menu-icon a span::after {
-// 		margin-top: -10px;
-//	}
 
 
 
@@ -188,30 +275,10 @@ article section {
 	margin-bottom: 3em;
 }
 
-.section--airtight {
-	margin-top: 0;
-	margin-bottom: 0;
-}
 
-.section--airspace {
-	margin-top: 3em;
-}
-
-.section--cushion {
-	margin-bottom: 5em;
-}
-
-.l-testimonials {
-	background: $base;
-}
 
 
 /***** SINGLE POSTS *****/
-
-.l-header-single-post {
-	margin: 0 auto 1em auto;
-	max-width: 2500px;
-}
 
 article.ag_share,
 article.ag_give,
@@ -244,24 +311,10 @@ article.ag_team {
 	text-align: center;
 }
 
-.l-testimonial {
-	background: $ag-yellow;
-	padding: 4em 0;
-}
-
-.l-subsection {
-	background: $smoke;
-	padding: 4em 0;
-}
 
 
 
 /***** TILES *****/
-
-.l-header-featured {
-	max-width: 2500px;
-	margin: 0 auto;
-}
 
 .l-tiles {
 	max-width: 2500px;
@@ -276,6 +329,11 @@ article.ag_team {
 	position:relative;
 }
 
+.tile-panel {
+	float: left;
+	position: relative;
+}
+
 .header-featured {
 	float: left;
 	background: $oil;
@@ -284,15 +342,15 @@ article.ag_team {
 
 .icon--play {
 	width: auto;	
-  opacity: 0.8;
-  filter: alpha(opacity=80); /* For IE8 and earlier */	
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */	
 }
 
 	@media #{$small-only} { 
 		.tile-single {
 			width: 50%;
 		}
-		.tile-single-wide {
+		.tile-single-wide, .tile-panel {
 			width: 100%;
 		}
 		.header__label-caption,
@@ -301,10 +359,10 @@ article.ag_team {
 		}
 		.header__label h1,
 		.header__text-title h1 {
-			font-size: 1.4rem;
+//			font-size: 1.4rem;
 		}
 		.icon--play {
-			height: 40px;
+			height: 50px;
 		}
 	}
 
@@ -312,7 +370,7 @@ article.ag_team {
 		.tile-single {
 			width: 25%;
 		}
-		.tile-single-wide {
+		.tile-single-wide, .tile-panel {
 			width: 50%;
 		}		
 		.header__label-caption,
@@ -320,7 +378,7 @@ article.ag_team {
 			display: block;
 		}
 		.icon--play {
-			height: 75px;
+			height: 100px;
 		}
 	}
 
@@ -339,14 +397,15 @@ article.ag_team {
   opacity: 0.7;
   filter: alpha(opacity=70); /* For IE8 and earlier */
 }
-.header__image-wrap:hover .icon--play {
+.header__image-wrap:hover .icon--play,
+.tile__image-wrap:hover .icon--play {
   opacity: 1;
   filter: alpha(opacity=100); /* For IE8 and earlier */	
 }
 .header__image-wrap > img,
 .tile-single a .attachment--tile,
 .tile-single-wide a .attachment--tile,
-.header__image-wrap:hover .icon--play {
+.header__image-wrap .icon--play {
 	-webkit-transition: all 0.3s; /* For Safari 3.1 to 6.0 */
   transition: all 0.3s;
 }
@@ -442,7 +501,7 @@ article.ag_team {
 		color: $ag-yellow;
 	}
 
-#Container .mix{
+#Container .mix {
 	display: none;
 }
 
@@ -457,4 +516,47 @@ article.ag_team {
 
 .ninja-forms-required-items {
 	display: none;
+}
+
+
+
+
+/***** GOOGLE MAPS *****/
+
+#ag_map {
+      height:550px;
+      width:100%;
+			img {
+				max-width: none;
+			}
+  }
+  .gm-style-iw * {
+      display: block;
+      width: 100%;
+  }
+  .gm-style-iw h4, .gm-style-iw p {
+      margin: 0;
+      padding: 0;
+  }
+  .gm-style-iw a {
+      color: #4272db;
+  }
+
+.icon--map {
+	width: 25px;
+	height: auto;
+}	
+
+.l-map {
+	background: $smoke;
+	@media #{$small-up} { 
+		.l-gray-light {
+			padding: 2em 0;
+		}
+	}
+	@media #{$large-up} {
+		.l-gray-light {
+			padding: 4em 0;	
+		}
+	}	
 }

@@ -12,6 +12,7 @@
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
 
 			<section class="clearfix">			
+				
 				<div class="row">
 					<div class="small-12 medium-8 medium-offset-2 columns" role="main">
 						<div class="post__title">
@@ -20,38 +21,57 @@
 						<?php the_content(); ?>					
 					</div>
 				</div>
-			</section>
-			
-			<section class="clearfix">
-				<div class="row">
-					<div class="small-12 medium-10 medium-offset-1 columns post__quote">
-						<?php the_field('project_design_challenge'); ?>				
-					</div>
-				</div>
-			</section>
-		
-			<section class="clearfix">
+
 				<div class="row">
 					<div class="small-12 medium-8 medium-offset-2 columns">
-						<h2 class="post__subtitle">Our Approach</h2>
+						<h2 class="post__subtitle">The Story</h2>
+						<p><?php the_field('project_story'); ?></p>
+					</div>
+				</div>
+			
+			</section>
+
+			<section class="l-gray-light text--center">
+				<div class="row">
+					<div class="small-12 medium-10 medium-offset-1 columns">
+						<h2 class="post__subtitle">Design Challenge</h2>
+						<h1>
+							<?php the_field('project_challenge'); ?>
+						</h1>
+					</div>
+				</div>		
+			</section>			
+
+			<section class="clearfix">
+				
+				<div class="row">
+					<div class="small-12 medium-8 medium-offset-2 columns">
+						<h2 class="post__subtitle">Objectives</h2>
+						<?php the_field('project_objectives'); ?>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="small-12 medium-8 medium-offset-2 columns">
+						<h2 class="post__subtitle">Approach</h2>
 						<?php the_field('project_approach'); ?>
 					</div>
 				</div>
-			</section>
 
-			<section class="clearfix">
 				<div class="row">
 					<div class="small-12 medium-8 medium-offset-2 columns">
-						<h2 class="post__subtitle">Our Impact</h2>
+						<h2 class="post__subtitle">Impact</h2>
 						<?php the_field('project_impact'); ?>
 					</div>
 				</div>
+				
 			</section>
 		
-			<section class="clearfix l-testimonial">
+			<section class="clearfix l-gray-light">
 				<div class="row">
-					<div class="small-12 medium-10 medium-offset-1 columns post__quote">
-						<?php the_field('project_testimonials'); ?>
+					<div class="small-12 medium-8 medium-offset-2 columns text--center">
+						<h2 class="post__subtitle">Here's what our client has to say</h2>
+						<p><?php the_field('project_testimonials'); ?></p>
 					</div>
 				</div>
 			</section>

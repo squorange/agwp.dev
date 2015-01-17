@@ -8,6 +8,7 @@
 			<header class="l-header-single-post">
 				<a href="<?php the_field('video_url'); ?>"><img src="<?php the_field('header_image'); ?>" /></a>
 			</header>
+			
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
 
 			<section class="clearfix">			

@@ -1,4 +1,4 @@
-<section class="l-subsection clearfix"> <!-- BEGIN TESTIMONIALS -->
+<section class="l-gray-light clearfix"> <!-- BEGIN TESTIMONIALS -->
 	
 	<div class="row row--header">
     <div class="large-12 columns">
