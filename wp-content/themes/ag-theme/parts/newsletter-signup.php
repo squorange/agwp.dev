@@ -1,4 +1,4 @@
-<section class="clearfix"> <!-- BEGIN NEWSLETTER SIGN-UP -->
+<section class="clearfix l-newsletter"> <!-- BEGIN NEWSLETTER SIGN-UP -->
 	
 	<div class="row row--header">
     <div class="large-10 large-offset-1 columns">
