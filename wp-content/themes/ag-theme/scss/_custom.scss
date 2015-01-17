@@ -50,6 +50,15 @@ figure {
 	margin: 0 auto;
 }
 
+.l-hidden {
+	display: none;
+}
+
+.l-header-video {
+	@extend .l-header-featured;
+	background: #1b1b1b;
+}
+
 .l-yellow-tall {
 	background: $ag-yellow;
 	padding: 4em 0;
@@ -83,6 +92,10 @@ figure {
 	h2, h3 {
 	color: $white;
 	}
+}
+
+.single-ag_share .l-newsletter {
+	background: $snow;
 }
 
 .l-contact {
@@ -560,3 +573,25 @@ article.ag_team {
 		}
 	}	
 }
+
+
+
+
+/***** VIDEO EMBEDS *****/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

@@ -7955,9 +7955,15 @@ figure {
 .clearfix > section {
   margin-bottom: 2em; }
 
-.l-header-featured, .l-header-single-post {
+.l-header-featured, .l-header-video, .l-header-single-post {
   max-width: 2500px;
   margin: 0 auto; }
+
+.l-hidden {
+  display: none; }
+
+.l-header-video {
+  background: #1b1b1b; }
 
 .l-yellow-tall {
   background: #FDDB45;
@@ -7984,6 +7990,9 @@ figure {
   padding: 3em 0 2em 0; }
   .l-gray-dark h2, .l-gray-dark h3 {
     color: #FFFFFF; }
+
+.single-ag_share .l-newsletter {
+  background: #F9F9F9; }
 
 @media only screen {
   .l-contact {
@@ -8397,3 +8406,20 @@ button.filter:hover {
   @media only screen and (min-width: 64.063em) {
     .l-map .l-gray-light {
       padding: 4em 0; } }
+
+/***** VIDEO EMBEDS *****/
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden; }
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }

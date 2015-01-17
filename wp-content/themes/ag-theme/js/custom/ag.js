@@ -9,15 +9,6 @@ $(function(){
 });
 
 
-// Swipebox
-
-$( document ).ready(function() {
-		/* Basic Gallery */
-		$( '.swipebox' ).swipebox();		
-		/* Video */
-		$( '.swipebox-video' ).swipebox();
-    });
-		
 
 //	Simple Text Rotator	
 		
@@ -28,6 +19,18 @@ $(".rotate").textrotator({
     });		
 		
 		
+
+// Swipebox
+
+$( document ).ready(function() {
+		/* Basic Gallery */
+		$( '.swipebox' ).swipebox();		
+		/* Video */
+		$( '.swipebox-video' ).swipebox();
+    });
+		
+		
+	
 //	Clear Input Default Values
 		
 		/* 

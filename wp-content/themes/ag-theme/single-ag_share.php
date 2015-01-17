@@ -5,22 +5,15 @@
 	<?php while (have_posts()) : the_post(); ?>
 		
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			
-			<section class="l-header-featured clearfix"> <!-- FEATURED POST -->
-				<div class="header-featured">	
-					<a href="<?php the_field('video_url'); ?>" class="swipebox-video">
-						<div class="header__image-wrap">
-							<img src="<?php the_field('header_image'); ?>" />
-							<div class="header__label-wrap">
-								<div class="header__label-inner">
-									<div class="header__label">
-										<img class="icon--play" src="<?php echo get_stylesheet_directory_uri() ; ?>/assets/img/icons/icon-play.png" />
-							 		</div>
-							 	</div>
-							</div>						
+
+			<section class="<?php the_field('video_present'); ?> clearfix">
+				<div class="row">
+					<div class="medium-8 medium-offset-2 columns">
+						<div class="video-container">
+							<?php the_field('video_url'); ?>
 						</div>
-					</a>
-				</div>
+					</div>
+				</div>	
 			</section>
 						
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
@@ -45,5 +38,6 @@
 
 	<?php do_action('foundationPress_after_content'); ?>
 
+	<?php get_template_part('parts/newsletter-signup'); ?>
 
 <?php get_footer(); ?>
