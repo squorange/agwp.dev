@@ -8378,10 +8378,15 @@ button.filter:hover {
 
 /***** GOOGLE MAPS *****/
 #ag_map {
-  height: 550px;
   width: 100%; }
   #ag_map img {
     max-width: none; }
+  @media only screen {
+    #ag_map {
+      height: 400px; } }
+  @media only screen and (min-width: 40.063em) {
+    #ag_map {
+      height: 550px; } }
 
 .gm-style-iw * {
   display: block;
