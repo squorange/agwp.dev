@@ -22,7 +22,6 @@ Template Name: Advise
 		</div>	
 	</header>
 
-	<?php endwhile; // end of the loop. ?>
 
 <div class="l-filters">	
 	<button class="filter" data-filter="all">All Case Studies:</button>
@@ -80,7 +79,37 @@ Template Name: Advise
 
 	<?php get_template_part('parts/funding'); ?>
 
-	<?php get_template_part('parts/testimonials'); ?>
+	<section class="l-gray-light clearfix"> <!-- BEGIN TESTIMONIALS -->
+	
+		<div class="row clearfix text--center ">
+	    <div class="large-12 columns">
+				<h2 class="post__subtitle">Here's what our clients have to say</h2>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="medium-4 columns">
+				<?php the_field('advise_testimonial_1'); ?>
+				<br /><br />
+			</div>
+			<div class="medium-4 columns">
+				<?php the_field('advise_testimonial_2'); ?>
+				<br /><br />				
+			</div>
+			<div class="medium-4 columns">
+				<?php the_field('advise_testimonial_3'); ?>
+				<br /><br />				
+			</div>
+		</div>
+		<div class="row text--center ">			
+			<div class="large-12 columns">
+				Client Logos
+			</div>
+		</div>
+
+	</section> <!-- END TESTIMONIALS -->
+	
+	<?php endwhile; // end of the loop. ?>
+	
 	
 	<?php get_template_part('parts/cocreate'); ?>
 
