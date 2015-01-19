@@ -79,6 +79,9 @@ figure {
 .l-header-single-post {
 	@extend .l-header-featured;
 	margin: 0 auto 1em auto;
+	img {
+		margin: 0 auto;
+	}
 }
 
 .l-gray-light {
@@ -324,6 +327,10 @@ article.ag_team {
 	text-align: center;
 }
 
+.post__credits {
+	@include text-small-caps;
+	margin: 4em 0 0 0;
+}
 
 
 

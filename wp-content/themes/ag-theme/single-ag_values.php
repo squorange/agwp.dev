@@ -6,7 +6,7 @@
 		
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header class="l-header-single-post">
-				<a href="<?php the_field('video_url'); ?>"><img src="<?php the_field('header_image'); ?>" /></a>
+				<img src="<?php the_field('header_image'); ?>" />
 			</header>
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
 
@@ -20,6 +20,9 @@
 							</div>
 						</div>
 						<?php the_content(); ?>
+						<div class="post__credits">
+							<?php the_field('artist_credits'); ?>
+						</div>
 					</div>
 				</div>
 			</section>

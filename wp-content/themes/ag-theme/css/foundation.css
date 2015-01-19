@@ -7980,6 +7980,8 @@ figure {
 
 .l-header-single-post {
   margin: 0 auto 1em auto; }
+  .l-header-single-post img {
+    margin: 0 auto; }
 
 .l-gray-light {
   background: #EEEEEE;
@@ -8190,6 +8192,12 @@ article.ag_team {
   @media only screen and (min-width: 40.063em) {
     .post__quote {
       font-size: 1.8rem; } }
+
+.post__credits {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin: 4em 0 0 0; }
 
 /***** TILES *****/
 .l-tiles {

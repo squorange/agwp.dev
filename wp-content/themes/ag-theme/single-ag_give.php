@@ -5,9 +5,17 @@
 	<?php while (have_posts()) : the_post(); ?>
 		
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<header class="l-header-single-post">
-				<a href="<?php the_field('video_url'); ?>"><img src="<?php the_field('header_image'); ?>" /></a>
-			</header>
+
+			<section class="<?php the_field('video_present'); ?> clearfix">
+				<div class="row">
+					<div class="medium-8 medium-offset-2 columns">
+						<div class="video-container">
+							<?php the_field('video_url'); ?>
+						</div>
+					</div>
+				</div>	
+			</section>
+
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
 			
 			<section class="clearfix">

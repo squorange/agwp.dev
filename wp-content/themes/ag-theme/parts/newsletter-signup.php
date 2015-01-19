@@ -18,7 +18,7 @@
 	    <input type="hidden" name="reallistid" value="1">
 	    <input type="hidden" name="doubleopt" value="0">
 		
-			<div class="large-8 large-offset-2 columns">
+			<div class="medium-8 medium-offset-2 columns">
 	      <div class="row collapse postfix-radius">			
 	        <div class="small-8 columns">
 	          <input class="prePostfix-radius--fix-left" type="text" name="fields_email" placeholder="What is your email?">
