@@ -7912,13 +7912,20 @@ html.swipebox-html.swipebox-touch {
   line-height: 43px;
   font-family: Helvetica, Arial, sans-serif; }
 
+body {
+  font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'FranklinGothicLTCom-Bk', Arial, sans-serif;
+  font-weight: normal; }
+
 h2 {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem; }
 
 .text--bold, strong, b {
-  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
   font-weight: normal; }
 
 .text--center {
@@ -8051,7 +8058,7 @@ figure {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif; }
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif; }
   @media only screen {
     .top-bar-section .nav__left li > a {
       padding-top: 18px;
@@ -8078,7 +8085,7 @@ figure {
     padding-bottom: 0px; } }
 
 .top-bar .toggle-topbar.menu-icon a {
-  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif; }
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif; }
 
 /***** FOOTER *****/
 footer {
@@ -8169,7 +8176,7 @@ article.ag_team {
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", "Franklin Gothic", Arial, sans-serif;
+  font-family: "FranklinGothicLTCom-Md", "Franklin Gothic Medium", Arial, sans-serif;
   margin-bottom: 1.5em; }
 
 .post__sectiontitle {
@@ -8184,7 +8191,7 @@ article.ag_team {
   letter-spacing: 0.05rem; }
 
 .post__quote {
-  font-family: "FranklinGothicLTCom-Bk", "ITC Franklin Gothic", "Franklin Gothic", Arial, sans-serif;
+  font-family: "FranklinGothicLTCom-Bk", Arial, sans-serif;
   text-align: center; }
   @media only screen and (max-width: 40em) {
     .post__quote {

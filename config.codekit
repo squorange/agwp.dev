@@ -47884,15 +47884,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/wp-snapshots\/20150119_awakengroupwp_54bd5eed592e17132150119194549_installer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/wp-snapshots\/20150119_awakengroupwp_54bd5eed592e17132150119194549_installer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/wp-snapshots\/dtoken.php": {
 		"fileType": 8192,
 		"ignore": 0,
