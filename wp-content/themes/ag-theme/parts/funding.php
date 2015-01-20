@@ -14,7 +14,7 @@
 	</div>
 	<div class="row row--last">
 		<div class="large-4 large-offset-4 medium-6 medium-offset-3 columns">
-			<a href="#" class="button expand radius text--bold">Learn about funding</a>
+			<a href="<?php echo home_url(); ?>/funding/" class="button expand radius text--bold">Learn about funding</a>
 		</div>
 	</div>	
 
