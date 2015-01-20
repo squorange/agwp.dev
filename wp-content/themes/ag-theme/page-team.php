@@ -22,8 +22,6 @@ Template Name: Team
 		</div>	
 	</header>
 
-	<?php endwhile; // end of the loop. ?>
-
   <section class="clearfix"> <!-- BEGIN TILES -->
 		<div id="Container" class="l-tiles container clearfix">
 
@@ -66,6 +64,18 @@ Template Name: Team
 
 		</div>
 	</section> <!-- END TILES -->
+	
+  <section class="clearfix l-gray-light">
+		<div class="row">
+			<div class="medium-8 medium-offset-2 columns">
+				<h2 class="post__subtitle text--center">Creative Collaborative</h2>
+				<?php the_field('creative_collaborative'); ?>
+			</div>
+		</div>		
+	</section>	
+	
+	
+	<?php endwhile; // end of the loop. ?>
 	
 	<?php get_template_part('parts/cocreate'); ?>
 

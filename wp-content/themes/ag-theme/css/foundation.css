@@ -7973,12 +7973,22 @@ figure {
   background: #1b1b1b; }
 
 .l-yellow-tall {
-  background: #FDDB45;
-  padding: 4em 0; }
+  background: #FDDB45; }
+  @media only screen {
+    .l-yellow-tall {
+      padding: 2em 0; } }
+  @media only screen and (min-width: 40.063em) {
+    .l-yellow-tall {
+      padding: 4em 0; } }
 
 .l-yellow-short {
-  background: #FDDB45;
-  padding: 2em 0; }
+  background: #FDDB45; }
+  @media only screen {
+    .l-yellow-short {
+      padding: 0.5em 0 0 0; } }
+  @media only screen and (min-width: 40.063em) {
+    .l-yellow-short {
+      padding: 2em 0; } }
   .l-yellow-short .button, .l-yellow-short button {
     color: #FFFFFF; }
   .l-yellow-short .button:hover, .l-yellow-short button:hover {

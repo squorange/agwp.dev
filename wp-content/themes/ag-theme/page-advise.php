@@ -102,7 +102,7 @@ Template Name: Advise
 		</div>
 		<div class="row text--center ">			
 			<div class="large-12 columns">
-				Client Logos
+				<!--Client Logos-->
 			</div>
 		</div>
 
